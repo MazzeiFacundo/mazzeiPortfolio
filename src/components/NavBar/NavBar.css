@@ -7,16 +7,14 @@
         justify-content: space-around;
         height: 100px;
         width: 100%;
-        background: rgb(0,0,0);
-        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(36,36,36,1) 100%);
-        border-bottom: 3px solid #414141;
+        background: transparent;
         border-image: linear-gradient(to right, #222222, #444444) 1;
     }
 
     .textNav {
         color: white;
         font-size: 35px;
-        font-family: 'Quicksand', sans-serif;
+        font-family: 'Major Mono Display', monospace;
         text-decoration: none;
     }
 
@@ -28,7 +26,6 @@
         text-decoration: none;
         font-family: 'Quicksand', sans-serif;
         font-size: 20px;
-        background-color: transparent;
         width: 15%;
         height: 100%;
     }
@@ -37,12 +34,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: black;
+        color: white;
         text-decoration: none;
         font-family: 'Quicksand', sans-serif;
-        font-size: 20px;
-        font-weight: 700;
-        background-color: white;
+        font-size: 23px;
+        font-weight: 600;
         width: 15%;
         height: 100%;
     }
@@ -51,12 +47,12 @@
 @media screen and (max-width: 899px) {
     .nav {
         position: fixed;
+        top: 0;
         display: flex;
         align-items: center;
         justify-content: space-around;
         height: 110px;
         width: 100%;
-        margin-top: -21px;
         background: rgb(0,0,0);
         background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(36,36,36,1) 100%);
         border-bottom: 3px solid #414141;
@@ -84,10 +80,10 @@
 @media screen and (max-width: 575px) {
     .nav {
         position: fixed;
+        top: 0;
         display: flex;
         align-items: center;
         justify-content: space-around;
-        margin-top: -21px;
         height: 70px;
         width: 100%;
         background: rgb(0,0,0);
@@ -117,10 +113,10 @@
 @media screen and (max-width: 508px) {
     .nav {
         position: fixed;
+        top: 0;
         display: flex;
         align-items: center;
         justify-content: space-around;
-        margin-top: -21px;
         height: 70px;
         width: 100%;
         background: rgb(0,0,0);
@@ -150,10 +146,10 @@
 @media screen and (max-width: 365px) {
     .nav {
         position: fixed;
+        top: 0;
         display: flex;
         align-items: center;
         justify-content: space-around;
-        margin-top: -21px;
         height: 50px;
         width: 100%;
         background: rgb(0,0,0);

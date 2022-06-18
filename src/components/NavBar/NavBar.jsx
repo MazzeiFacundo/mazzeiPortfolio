@@ -5,7 +5,7 @@ import styles from "./NavBar.css"
 export default function NavBar() {
     return (
         <nav className="nav">
-            <Link className="textNav" to='/home'>Mazzei Facundo</Link>
+            <Link className="textNav" to='/home'>Web Developer</Link>
             <Link className="navText" to='/summary'>Summary</Link>
             <Link className="navText" to='/home'>Home</Link>
             <Link className="navText" to='/myProjects'>My projects</Link>

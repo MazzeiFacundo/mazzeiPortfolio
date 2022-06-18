@@ -1,0 +1,96 @@
+.homeContainer{
+    display: flex;
+    padding-top: 100px;
+}
+
+.textContainerHome{
+    display: flex;
+    flex-direction: column;
+    margin-left: 85px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.textContainerHome h1 {
+    animation: textContainerHome 6s;
+}
+
+.textContainerHome p {
+    animation: textContainerHome 6s;
+}
+
+.moonIMG {
+    animation: textContainerHome 6s;
+}
+
+
+.nameTitleHome{
+    display: flex;
+    color: white;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.underNamePHome1{
+    display: flex;
+    color: white;
+    margin-top: -20px;
+    margin-left: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.underNamePHome2{
+    display: flex;
+    color: white;
+    margin-top: -10px;
+    margin-left: 5px;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 600px;
+}
+
+.underNamePHome3{
+    display: flex;
+    color: white;
+    margin-left: 5px;
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: 'Major Mono Display', monospace;
+    max-width: 600px;
+}
+
+.underNamePHome4{
+    display: flex;
+    color: white;
+    margin-left: 5px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 600px;
+}
+
+.moonIMG{
+    position: fixed;
+    display: flex;
+    right: -200px;
+    align-self: flex-start;
+    height: 1000px;
+}
+
+@keyframes textContainerHome {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes moonIMG {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
