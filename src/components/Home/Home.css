@@ -1,96 +1,529 @@
-.homeContainer{
-    display: flex;
-    padding-top: 100px;
-}
 
-.textContainerHome{
-    display: flex;
-    flex-direction: column;
-    margin-left: 85px;
-    width: 100%;
-    overflow: hidden;
-}
-
-.textContainerHome h1 {
-    animation: textContainerHome 6s;
-}
-
-.textContainerHome p {
-    animation: textContainerHome 6s;
-}
-
-.moonIMG {
-    animation: textContainerHome 6s;
-}
-
-
-.nameTitleHome{
-    display: flex;
-    color: white;
-    font-family: 'Major Mono Display', monospace;
-    font-weight: 100;
-    font-size: 50px;
-}
-
-.underNamePHome1{
-    display: flex;
-    color: white;
-    margin-top: -20px;
-    margin-left: 5px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.underNamePHome2{
-    display: flex;
-    color: white;
-    margin-top: -10px;
-    margin-left: 5px;
-    font-family: 'Quicksand', sans-serif;
-    max-width: 600px;
-}
-
-.underNamePHome3{
-    display: flex;
-    color: white;
-    margin-left: 5px;
-    margin-top: 60px;
-    font-size: 20px;
-    font-family: 'Major Mono Display', monospace;
-    max-width: 600px;
-}
-
-.underNamePHome4{
-    display: flex;
-    color: white;
-    margin-left: 5px;
-    margin-top: 20px;
-    font-size: 14px;
-    font-family: 'Quicksand', sans-serif;
-    max-width: 600px;
-}
-
-.moonIMG{
-    position: fixed;
-    display: flex;
-    right: -200px;
-    align-self: flex-start;
-    height: 1000px;
-}
-
-@keyframes textContainerHome {
-    from {
-        opacity: 0%;
+@media screen and (min-width: 900px){
+    .homeContainer{
+        display: flex;
+        padding-top: 100px;
     }
-    to {
-        opacity: 100%;
+    
+    .textContainerHome{
+        display: flex;
+        flex-direction: column;
+        margin-left: 85px;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .nameTitleHome{
+        display: flex;
+        color: white;
+        font-family: 'Major Mono Display', monospace;
+        font-weight: 100;
+        font-size: 50px;
+    }
+    
+    .underNamePHome1{
+        display: flex;
+        color: white;
+        margin-top: -20px;
+        margin-left: 5px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .underNamePHome2{
+        display: flex;
+        color: white;
+        margin-top: -10px;
+        margin-left: 5px;
+        font-family: 'Quicksand', sans-serif;
+        max-width: 600px;
+    }
+    
+    .underNamePHome3{
+        display: flex;
+        color: white;
+        margin-left: 5px;
+        margin-top: 60px;
+        font-size: 20px;
+        font-family: 'Major Mono Display', monospace;
+        max-width: 600px;
+    }
+    
+    .underNamePHome4{
+        display: flex;
+        color: white;
+        margin-left: 5px;
+        margin-top: 20px;
+        font-size: 14px;
+        font-family: 'Quicksand', sans-serif;
+        max-width: 600px;
+    }
+    
+    .moonIMG{
+        position: fixed;
+        display: flex;
+        right: -150px;
+        bottom: -250px;
+        align-self: flex-start;
+        height: 750px;
+        opacity: 90%;
+        animation: rotation 8s infinite linear;
+    }
+    
+    @keyframes textContainerHome {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
+        }
+    }
+    
+    @keyframes moonIMG {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+        
+    }
+
+    @keyframes moonIMG {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+        
+    }
+
+    @keyframes moonIMGContainer {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 90%;
+        }
+    }
+    
+    .textContainerHome h1 {
+        animation: textContainerHome 6s;
+    }
+    
+    .textContainerHome p {
+        animation: textContainerHome 6s;
+    }
+    
+    .moonIMG {
+        animation: moonIMG 360s infinite linear;
+        }
+
+    .moonIMGContainer {
+        animation: textContainerHome 10s;
+    }
+    
+    
+}
+
+@media screen and (max-width: 899px){
+    .homeContainer{
+        display: flex;
+        padding-top: 100px;
+        justify-items: center;
+    }
+    
+    .textContainerHome{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+        align-items: center;
+    }
+    
+    .nameTitleHome{
+        display: flex;
+        color: white;
+        font-family: 'Major Mono Display', monospace;
+        font-weight: 100;
+        font-size: 50px;
+    }
+    
+    .underNamePHome1{
+        display: flex;
+        color: white;
+        margin-top: -20px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .underNamePHome2{
+        display: flex;
+        color: white;
+        margin-top: -10px;
+        font-family: 'Quicksand', sans-serif;
+        max-width: 600px;
+    }
+    
+    .underNamePHome3{
+        display: flex;
+        color: white;
+        margin-top: 60px;
+        font-size: 20px;
+        font-family: 'Major Mono Display', monospace;
+        max-width: 600px;
+    }
+    
+    .underNamePHome4{
+        display: flex;
+        color: white;
+        margin-top: 20px;
+        font-size: 14px;
+        font-family: 'Quicksand', sans-serif;
+        max-width: 600px;
+        text-align: center;
+    }
+    
+    .moonIMG{
+        position: relative;
+        display: none;
+        right: -200px;
+        align-self: flex-start;
+        height: 500px;
+    }
+    
+    @keyframes textContainerHome {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
+        }
+    }
+    
+    @keyframes moonIMG {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
+        }
+    }
+    
+    .textContainerHome h1 {
+        animation: textContainerHome 6s;
+    }
+    
+    .textContainerHome p {
+        animation: textContainerHome 6s;
+    }
+    
+    .moonIMG {
+        animation: textContainerHome 6s;
+    }
+    
+}
+
+@media screen and (max-width: 575px){
+    .homeContainer{
+        display: flex;
+        padding-top: 100px;
+        justify-items: center;
+    }
+    
+    .textContainerHome{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+        align-items: center;
+    }
+    
+    .nameTitleHome{
+        display: flex;
+        color: white;
+        font-family: 'Major Mono Display', monospace;
+        font-weight: 100;
+        font-size: 40px;
+    }
+    
+    .underNamePHome1{
+        display: flex;
+        color: white;
+        margin-top: -20px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .underNamePHome2{
+        display: flex;
+        color: white;
+        margin-top: -10px;
+        font-family: 'Quicksand', sans-serif;
+        max-width: 600px;
+    }
+    
+    .underNamePHome3{
+        display: flex;
+        color: white;
+        margin-top: 60px;
+        font-size: 20px;
+        font-family: 'Major Mono Display', monospace;
+        max-width: 600px;
+    }
+    
+    .underNamePHome4{
+        display: flex;
+        color: white;
+        margin-top: 20px;
+        font-size: 14px;
+        font-family: 'Quicksand', sans-serif;
+        max-width: 600px;
+        text-align: center;
+    }
+    
+    .moonIMG{
+        position: relative;
+        display: none;
+        right: -200px;
+        align-self: flex-start;
+        height: 500px;
+    }
+    
+    @keyframes textContainerHome {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
+        }
+    }
+    
+    @keyframes moonIMG {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
+        }
+    }
+    
+    .textContainerHome h1 {
+        animation: textContainerHome 6s;
+    }
+    
+    .textContainerHome p {
+        animation: textContainerHome 6s;
+    }
+    
+    .moonIMG {
+        animation: textContainerHome 6s;
+    }
+    
+}
+
+@media screen and (max-width: 508px){
+    .homeContainer{
+        display: flex;
+        padding-top: 60px;
+        justify-items: center;
+    }
+    
+    .textContainerHome{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .nameTitleHome{
+        display: flex;
+        color: white;
+        font-family: 'Major Mono Display', monospace;
+        font-weight: 100;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    
+    .underNamePHome1{
+        display: flex;
+        color: white;
+        margin-top: -10px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .underNamePHome2{
+        display: flex;
+        color: white;
+        margin-top: -10px;
+        margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        max-width: 600px;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .underNamePHome3{
+        display: flex;
+        color: white;
+        margin-top: 20px;
+        font-size: 15px;
+        font-family: 'Major Mono Display', monospace;
+        max-width: 600px;
+    }
+    
+    .underNamePHome4{
+        display: flex;
+        color: white;
+        margin-top: 10px;
+        font-size: 10px;
+        font-family: 'Quicksand', sans-serif;
+        max-width: 300px;
+        text-align: center;
+    }
+    
+    .moonIMG{
+        display: flex;
+        opacity: 90%;
+        align-self: flex-end;
+        animation: rotation 8s infinite linear;
+    }
+
+    .moonIMGContainer{
+        display: flex;
+    }
+    
+    @keyframes textContainerHome {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
+        }
+    }
+    
+    @keyframes moonIMG {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
+        }
+    }
+    
+    .textContainerHome h1 {
+        animation: textContainerHome 6s;
+    }
+    
+    .textContainerHome p {
+        animation: textContainerHome 6s;
+    }
+    
+    .moonIMG {
+        animation: textContainerHome 6s;
     }
 }
 
-@keyframes moonIMG {
-    from {
-        opacity: 0%;
+@media screen and (max-width: 365px){
+    .homeContainer{
+        display: flex;
+        padding-top: 60px;
+        justify-items: center;
     }
-    to {
-        opacity: 100%;
+    
+    .textContainerHome{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+        align-items: center;
+    }
+    
+    .nameTitleHome{
+        display: flex;
+        color: white;
+        font-family: 'Major Mono Display', monospace;
+        font-weight: 100;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    
+    .underNamePHome1{
+        display: flex;
+        color: white;
+        margin-top: -10px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .underNamePHome2{
+        display: flex;
+        color: white;
+        margin-top: -10px;
+        margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        max-width: 600px;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .underNamePHome3{
+        display: flex;
+        color: white;
+        margin-top: 20px;
+        font-size: 15px;
+        font-family: 'Major Mono Display', monospace;
+        max-width: 600px;
+    }
+    
+    .underNamePHome4{
+        display: flex;
+        color: white;
+        margin-top: 10px;
+        font-size: 10px;
+        font-family: 'Quicksand', sans-serif;
+        max-width: 300px;
+        text-align: center;
+    }
+    
+    .moonIMG{
+        position: fixed;
+        display: flex;
+        align-self: center;
+        opacity: 90%;
+        animation: rotation 8s infinite linear;
+        
+    }
+    
+    @keyframes textContainerHome {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
+        }
+    }
+    
+    @keyframes moonIMG {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
+        }
+    }
+    
+    .textContainerHome h1 {
+        animation: textContainerHome 6s;
+    }
+    
+    .textContainerHome p {
+        animation: textContainerHome 6s;
+    }
+    
+    .moonIMG {
+        animation: textContainerHome 6s;
     }
 }
+

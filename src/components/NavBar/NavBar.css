@@ -9,6 +9,8 @@
         width: 100%;
         background: transparent;
         border-image: linear-gradient(to right, #222222, #444444) 1;
+        margin-left: 20px;
+        z-index: 3;
     }
 
     .textNav {
@@ -53,12 +55,8 @@
         justify-content: space-around;
         height: 110px;
         width: 100%;
-        background: rgb(0,0,0);
-        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(36,36,36,1) 100%);
-        border-bottom: 3px solid #414141;
-        border-image: linear-gradient(to right, #222222, #444444) 1;
-        border-bottom: 3px solid #414141;
-        border-image: linear-gradient(to right, #222222, #444444) 1;
+        background: transparent;
+        border-image: linear-gradient(to right, #222222, #444444) 1;;
     }
 
     .textNav {
@@ -86,11 +84,111 @@
         justify-content: space-around;
         height: 70px;
         width: 100%;
-        background: rgb(0,0,0);
-        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(36,36,36,1) 100%);
-        border-bottom: 3px solid #414141;
+        background: transparent;
         border-image: linear-gradient(to right, #222222, #444444) 1;
-        border-bottom: 3px solid #414141;
+    }
+
+    .textNav {
+        color: aliceblue;
+        font-size: 22px;
+        font-family: 'Quicksand', sans-serif;
+        text-decoration: none;
+    }
+
+    .navText {
+        display: flex;
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .nav {
+        position: fixed;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 100px;
+        width: 100%;
+        background: transparent;
+        border-image: linear-gradient(to right, #222222, #444444) 1;
+    }
+
+    .textNav {
+        color: white;
+        font-size: 35px;
+        font-family: 'Major Mono Display', monospace;
+        text-decoration: none;
+    }
+
+    .navText {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        width: 15%;
+        height: 100%;
+    }
+
+    .navText:hover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 23px;
+        font-weight: 600;
+        width: 15%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .nav {
+        position: fixed;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 110px;
+        width: 100%;
+        background: transparent;
+        border-image: linear-gradient(to right, #222222, #444444) 1;;
+    }
+
+    .textNav {
+        color: aliceblue;
+        font-size: 30px;
+        font-family: 'Quicksand', sans-serif;
+        text-decoration: none;
+    }
+
+    .navText {
+        display: flex;
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .nav {
+        position: fixed;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 70px;
+        width: 100%;
+        background: transparent;
         border-image: linear-gradient(to right, #222222, #444444) 1;
     }
 
@@ -119,11 +217,7 @@
         justify-content: space-around;
         height: 70px;
         width: 100%;
-        background: rgb(0,0,0);
-        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(36,36,36,1) 100%);
-        border-bottom: 3px solid #414141;
-        border-image: linear-gradient(to right, #222222, #444444) 1;
-        border-bottom: 3px solid #414141;
+        background: transparent;
         border-image: linear-gradient(to right, #222222, #444444) 1;
     }
 
@@ -152,11 +246,7 @@
         justify-content: space-around;
         height: 50px;
         width: 100%;
-        background: rgb(0,0,0);
-        background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(36,36,36,1) 100%);
-        border-bottom: 3px solid #414141;
-        border-image: linear-gradient(to right, #222222, #444444) 1;
-        border-bottom: 3px solid #414141;
+        background: transparent;
         border-image: linear-gradient(to right, #222222, #444444) 1;
     }
 

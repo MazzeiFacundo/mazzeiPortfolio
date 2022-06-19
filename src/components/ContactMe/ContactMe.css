@@ -1,3 +1,31 @@
 .contactContainer{
-    padding-top: 100px;
+    display: flex;
+    color: white;
+    height: 100vh;
+    background: url("C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/esfera.gif") no-repeat center;
 }   
+
+.contactLogosAndTextContainer{
+    display: flex;
+    align-items: center;
+    justify-items: space-around;
+}
+
+.contactlogos{
+    display: flex;
+    width: 250px;
+}
+
+.contactImgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.contactIMGBackground{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: red;
+    height: 5%;
+}

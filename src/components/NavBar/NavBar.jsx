@@ -8,8 +8,8 @@ export default function NavBar() {
             <Link className="textNav" to='/home'>Web Developer</Link>
             <Link className="navText" to='/summary'>Summary</Link>
             <Link className="navText" to='/home'>Home</Link>
-            <Link className="navText" to='/myProjects'>My projects</Link>
-            <Link className="navText" to='/contact'>Contact Me</Link>
+            <Link className="navText" to='/myProjects'>Projects</Link>
+            <Link className="navText" to='/contact'>Contact</Link>
         </nav>
     )
 }
