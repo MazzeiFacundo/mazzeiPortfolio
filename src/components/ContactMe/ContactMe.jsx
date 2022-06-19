@@ -10,19 +10,20 @@ function ContactMe() {
     return (
         <div className="contactContainer">
             <NavBar></NavBar>
-            <div className="contactImgContainer">
-            <img className="contactIMGBackground" src="https://www.kldperu.com/wp-content/uploads/2020/07/icono-SR-blanco.png"/>
-            </div>
             <div className="contactLogosAndTextContainer">
-                {/* <div>
-                    <img className="contactlogos" src={linkedin} />
+                <div className="sphereIMG">
+                    <img src={sphere} />
                 </div>
-                <div>
-                    <img className="contactlogos" src={gmail} />
+                <div className="contactGmailIMG">
+                    <img src={gmail}/>
                 </div>
-                <div>
-                    <img className="contactlogos" src={github} />
-                </div> */}
+                <div className="contactLinkedInIMG">
+                    <img src={linkedin} />
+                    <a className="linkLinkedIn" href="https://www.linkedin.com/in/facundomazzei/">a</a>
+                </div>
+                <div className="contactGitHubIMG">
+                    <img src={github} />
+                </div>
             </div>
         </div>
     )

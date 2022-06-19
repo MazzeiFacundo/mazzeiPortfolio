@@ -1,31 +1,60 @@
 .contactContainer{
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     color: white;
     height: 100vh;
-    background: url("C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/esfera.gif") no-repeat center;
-}   
+}
+
+.contactMeText{
+    color: red;
+    padding-top: 100px;
+}
 
 .contactLogosAndTextContainer{
     display: flex;
     align-items: center;
-    justify-items: space-around;
+    justify-content: space-around;
+    height: 50%;
+    width: 100%;
 }
 
-.contactlogos{
+.contactLinkedInIMG{
     display: flex;
-    width: 250px;
+    height: 60%;
+    width: 20%;
+    object-fit: cover;
 }
 
-.contactImgContainer{
+.linkLinkedIn{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-.contactIMGBackground{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     background-color: red;
-    height: 5%;
+}
+
+.sphereIMG{
+    width: 25%;
+}
+
+.contactGmailIMG{
+    display: flex;
+    height: 20%;
+    margin-top: 10px;
+}
+
+.contactGitHubIMG{
+    display: flex;
+    height: 20%;
+}
+
+@keyframes contactLogosAndTextContainer {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 90%;
+    }
+}
+
+.contactLogosAndTextContainer img {
+    animation: textContainerHome 3s;
 }
