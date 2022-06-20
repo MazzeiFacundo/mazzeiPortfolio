@@ -19,31 +19,90 @@
     width: 100%;
 }
 
-.contactLinkedInIMG{
+.contactLinkedInContainer{
     display: flex;
-    height: 60%;
-    width: 20%;
+    align-self: center;
     object-fit: cover;
+}
+
+.contactLinkedInIMG:hover{
+    display: flex;
 }
 
 .linkLinkedIn{
     display: flex;
-    background-color: red;
 }
+
+.linkedInIMG{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.linkedInIMG:hover{
+    display: flex;
+    height: 105%;
+    width: 105%;
+}
+
+.linkLinkedIn:hover{
+    display: flex;
+}
+
 
 .sphereIMG{
     width: 25%;
 }
 
 .contactGmailIMG{
-    display: flex;
+    width: auto;
+    display: inline-block;
     height: 20%;
-    margin-top: 10px;
+    margin-top: 14px;
+    justify-content: center;
+    align-items: center;
 }
 
-.contactGitHubIMG{
+.contactGmailIMG:hover .gmailTrueIMG{
+    display: none;
+}
+
+.contactGmailIMG:hover .contactGmailText{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.gmailTrueIMG{
+    height: 100%;
+}
+
+.contactGmailText{
+    display: none;
+    font-size: 25px;
+}
+
+.gmailTrueIMG:hover + .contactGmailText{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.contactGitHubContainer{
     display: flex;
     height: 20%;
+}
+
+.linkGitHub{
+    display: flex;
+}
+
+.contactGitHubIMG:hover{
+    display: flex;
+    height: 105%;
+    width: 105%;
 }
 
 @keyframes contactLogosAndTextContainer {
@@ -51,10 +110,14 @@
         opacity: 0%;
     }
     to {
-        opacity: 90%;
+        opacity: 100%;
     }
 }
 
 .contactLogosAndTextContainer img {
+    animation: textContainerHome 3s;
+}
+
+.contactLogosAndTextContainer div {
     animation: textContainerHome 3s;
 }

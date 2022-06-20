@@ -14,15 +14,19 @@ function ContactMe() {
                 <div className="sphereIMG">
                     <img src={sphere} />
                 </div>
+                <div className="contactLinkedInContainer">
+                    <a className="linkLinkedIn" href="https://www.linkedin.com/in/facundomazzei/">
+                        <img className="linkedInIMG" src={linkedin} />
+                    </a>
+                </div>
                 <div className="contactGmailIMG">
-                    <img src={gmail}/>
+                    <img className="gmailTrueIMG" src={gmail} />
+                    <div className="contactGmailText">facundomazzeidev@gmail.com</div>
                 </div>
-                <div className="contactLinkedInIMG">
-                    <img src={linkedin} />
-                    <a className="linkLinkedIn" href="https://www.linkedin.com/in/facundomazzei/">a</a>
-                </div>
-                <div className="contactGitHubIMG">
-                    <img src={github} />
+                <div className="contactGitHubContainer">
+                    <a className="linkGitHub" href="https://github.com/MazzeiFacundo">
+                        <img className="contactGitHubIMG" src={github} />
+                    </a>
                 </div>
             </div>
         </div>
