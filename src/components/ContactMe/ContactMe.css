@@ -84,7 +84,19 @@
     font-size: 25px;
 }
 
+.contactGitHubText{
+    display: none;
+    font-size: 25px;
+}
+
 .gmailTrueIMG:hover + .contactGmailText{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.contactGitHubIMG:hover + .contactGitHubText{
+    text-decoration: none;
     display: flex;
     margin: 0;
     padding: 0;

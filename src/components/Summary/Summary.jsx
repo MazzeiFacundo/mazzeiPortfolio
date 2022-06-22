@@ -2,51 +2,110 @@ import React from "react";
 import { Link } from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
 import styles from "./Summary.css"
+import me from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/me.jpg"
 
 function Summary() {
     return (
         <div className="allContainerSummary">
             <NavBar></NavBar>
-            <div className="containerSummary">
-                <div>
-                    <h1>Hello! I'm Facundo!</h1>
-                    <p>Just as the Norse god, Bragi connects his other deities with music and poetry through his compositions, the main purpose of the Bragi App is to connect an artist with his fans through his music-oriented posts. You can follow your favourite artists, see their posts in real time, like them and see them on your profile, but above all you can choose to be Premium and feel much closer to your favourite singers, commenting on their posts and seeing exclusive posts for you.</p>
+            <div className="summarySplitContainer">
+                <div className="leftDiv">
+                    <img className="meIMG" src={me}></img>
+
+                    <div className="summaryTitle">Summary
+                        <div className="summaryText">
+                            Hello! My name is Facundo, I am a Full Stack web developer with knowledge and experience in business, disciplined, willing to learn from my colleagues and looking for new challenges.
+                        </div>
+                    </div>
+
+                    <div className="summaryTitle">Cell phone
+                        <div className="summaryText">
+                            +54 3329 394357
+                        </div>
+                    </div>
+
+                    <div className="summaryTitle">Address
+                        <div className="summaryText">
+                            Colon 828, San Pedro, Provincia de Buenos Aires
+                        </div>
+                    </div>
+
+                    <div className="summaryTitle">LinkedIn
+                        <div className="summaryText">
+                            https://www.linkedin.com/in/facundomazzei/
+                        </div>
+                    </div>
+
+                    <div className="summaryTitle">E-mail
+                        <div className="summaryText">
+                            facundomazzeidev@gmail.com
+                        </div>
+                    </div>
+                </div>
+                <div className="rightDiv">
+                    <div className="titleSummary">Facundo Mazzei</div>
+                    <div className="subTitleSummary">
+                        Javascript / ReactJs / NodeJs / Sequelize / SQL / CSS / HTML
+                    </div>
+                    <div className="summaryTitleRight">Experience with technologies:
+                        <div className="summarySubTitleRight">Bragi | Private project
+                            <div className="summaryTextSubTitle"> Role:
+                                <div className="summaryTextInput">
+                                    Full Stack Developer
+                                </div>
+                                <div className="summaryTextSubTitle">
+                                    Used technologies:
+                                </div>
+                                <div className="summaryTextInput">
+                                    Javascript / ReactJs / NodeJs / Sequelize / SQL / CSS / HTML
+                                </div>
+                            </div>
+                        </div>
+                        <div className="summarySubTitleRight">HENRY | Academic project.
+                            <div className="summaryTextSubTitle"> Role:
+                                <div className="summaryTextInput">
+                                    Full Stack Developer
+                                </div>
+                                <div className="summaryTextSubTitle">
+                                    Used technologies:
+                                </div>
+                                <div className="summaryTextInput">
+                                    Javascript / ReactJs / NodeJs / Sequelize / SQL / CSS / HTML
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="summaryTitleRight">Academic record:
+                        <div className="summarySubTitleRight">HENRY Web Course | Graduated
+                            <div className="summaryTextSubTitle"> Technologies learned:
+                                <div className="summaryTextInput">
+                                    Javascript / ReactJs / NodeJs / Sequelize / SQL / CSS / HTML
+                                </div>
+                            </div>
+                        </div>
+                        <div className="summaryTextSubTitle">Learning time and practical use of technologies studied:
+                                <div className="summaryTextInput">
+                                +800 Hours
+                                </div>
+                                <div className="summaryTextInput">
+                                    Javascript / ReactJs / NodeJs / Sequelize / SQL / CSS / HTML
+                                </div>
+                        </div>
+                    </div>
+                    <div className="summaryTitleRight">Languages:
+                        <div className="summaryTextInputLanguage">English:
+                            <div className="summaryTextInput"> EF SET English Certificate 78/100 (C2 Proficient)
+                            </div>
+                        </div>
+                        <div className="summaryTextInputLanguage">Spanish:
+                            <div className="summaryTextInput"> Native 
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div>
-                    <h2>Who am I?</h2>
-                    <p>Just as the Norse god, Bragi connects his other deities with music and poetry through his compositions, the main purpose of the Bragi App is to connect an artist with his fans through his music-oriented posts. You can follow your favourite artists, see their posts in real time, like them and see them on your profile, but above all you can choose to be Premium and feel much closer to your favourite singers, commenting on their posts and seeing exclusive posts for you.</p>
-                </div>
-
-                <div>
-                    <h2>My tech stack</h2>
-                    <p>Just as the Norse god, Bragi connects his other deities with music and poetry through his compositions, the main purpose of the Bragi App is to connect an artist with his fans through his music-oriented posts. You can follow your favourite artists, see their posts in real time, like them and see them on your profile, but above all you can choose to be Premium and feel much closer to your favourite singers, commenting on their posts and seeing exclusive posts for you.</p>
-                </div>
-
-                <div>
-                    <h2>My programming experience</h2>
-                    <p>Just as the Norse god, Bragi connects his other deities with music and poetry through his compositions, the main purpose of the Bragi App is to connect an artist with his fans through his music-oriented posts. You can follow your favourite artists, see their posts in real time, like them and see them on your profile, but above all you can choose to be Premium and feel much closer to your favourite singers, commenting on their posts and seeing exclusive posts for you.</p>
-                </div>
-
-                <div>
-                    <h2>Henry's bootcamp</h2>
-                    <p>Just as the Norse god, Bragi connects his other deities with music and poetry through his compositions, the main purpose of the Bragi App is to connect an artist with his fans through his music-oriented posts. You can follow your favourite artists, see their posts in real time, like them and see them on your profile, but above all you can choose to be Premium and feel much closer to your favourite singers, commenting on their posts and seeing exclusive posts for you.</p>
-                </div>
-
-                <div>
-                    <h2>Languages</h2>
-                    <p>Just as the Norse god, Bragi connects his other deities with music and poetry through his compositions, the main purpose of the Bragi App is to connect an artist with his fans through his music-oriented posts. You can follow your favourite artists, see their posts in real time, like them and see them on your profile, but above all you can choose to be Premium and feel much closer to your favourite singers, commenting on their posts and seeing exclusive posts for you.</p>
-                </div>
-
-                <div>
-                    <h2>Hobbies and interests</h2>
-                    <p>Just as the Norse god, Bragi connects his other deities with music and poetry through his compositions, the main purpose of the Bragi App is to connect an artist with his fans through his music-oriented posts. You can follow your favourite artists, see their posts in real time, like them and see them on your profile, but above all you can choose to be Premium and feel much closer to your favourite singers, commenting on their posts and seeing exclusive posts for you.</p>
-                </div>
-
-                <div>
-                    <h2>Education</h2>
-                    <p>Just as the Norse god, Bragi connects his other deities with music and poetry through his compositions, the main purpose of the Bragi App is to connect an artist with his fans through his music-oriented posts. You can follow your favourite artists, see their posts in real time, like them and see them on your profile, but above all you can choose to be Premium and feel much closer to your favourite singers, commenting on their posts and seeing exclusive posts for you.</p>
-                </div>
             </div>
         </div>
     )
