@@ -1,5 +1,98 @@
+.allProjectsContainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
 .projectsContainer{
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    align-items: center;
+    align-content: space-around;
+}
+
+.bragiDiv{
+    display: flex;
+    width: 85%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 25%, rgba(84,84,84,0.84) 100%);
+}
+
+.bragiDiv:hover{
+    display: flex;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(145deg, rgba(0,0,0,1) 25%, rgba(84,84,84,0.84) 100%);
+}
+
+.comingSoonDiv{
+    display: flex;
+    width: 85%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 25%, rgba(84,84,84,0.84) 100%);
+}
+
+.comingSoonDiv:hover{
+    display: flex;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(145deg, rgba(0,0,0,1) 25%, rgba(84,84,84,0.84) 100%);
+}
+
+.comingSoonDiv1{
+    display: flex;
+    width: 85%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(145deg, rgba(0,0,0,1) 25%, rgba(84,84,84,0.84) 100%);
+}
+
+.comingSoonDiv1:hover{
+    display: flex;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(145deg, rgba(0,0,0,1) 25%, rgba(84,84,84,0.84) 100%);
+}
+
+.insideDivIMG {
+    display: block;
+    height: 120px;
+	-webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 85% 0%, 100% 120%, 0% 100%);
+}
+
+@keyframes allProjectsContainer {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+.allProjectsContainer div {
+    animation: textContainerHome 3s;
 }
