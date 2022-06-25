@@ -3,6 +3,9 @@
     justify-content: flex-end;
     align-items: center;
     color: white;
+    background-image: url("https://42.fr/wp-content/uploads/2021/06/Rectangle.png");
+    background-position:right;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
@@ -14,7 +17,7 @@
 .contactLogosAndTextContainer{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 50%;
     width: 100%;
 }
@@ -23,6 +26,7 @@
     display: flex;
     align-self: center;
     object-fit: cover;
+    margin-left: 60px;
 }
 
 .contactLinkedInIMG:hover{
@@ -52,6 +56,7 @@
 
 .sphereIMG{
     width: 25%;
+    margin-left: 30px;
 }
 
 .contactGmailIMG{
@@ -105,11 +110,13 @@
 .contactGitHubContainer{
     display: flex;
     height: 20%;
+    margin-right: 60px;
 }
 
 .linkGitHub{
     display: flex;
 }
+
 
 .contactGitHubIMG:hover{
     display: flex;
@@ -126,10 +133,23 @@
     }
 }
 
+@keyframes contactContainer {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+.contactContainer img {
+    animation: textContainerHome 1.5s;
+}
+
 .contactLogosAndTextContainer img {
-    animation: textContainerHome 3s;
+    animation: textContainerHome 1.5s;
 }
 
 .contactLogosAndTextContainer div {
-    animation: textContainerHome 3s;
+    animation: textContainerHome 1.5s;
 }

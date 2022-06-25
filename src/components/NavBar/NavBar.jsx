@@ -7,8 +7,8 @@ export default function NavBar() {
 
     return (
         <nav className={`${location.pathname === '/summary' ? "navSummary" : "nav"}`}>
-            <Link className="textNav" to='/home'>Web Developer</Link>
-            <Link className="navText" to='/home'>Home</Link>
+            <Link className="textNav" to='/'>Web Developer</Link>
+            <Link className="navText" to='/'>Home</Link>
             <Link className="navText" to='/summary'>Summary</Link>
             <Link className="navText" to='/myProjects'>Projects</Link>
             <Link className="navText" to='/contact'>Contact</Link>

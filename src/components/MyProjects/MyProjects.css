@@ -1,80 +1,114 @@
 .allProjectsContainer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding-top: 120px;
+    align-items: center;
+}
+
+.dummyIMG{
+    display: flex;
+    width: 500px;
+    height: 440px;
+    margin-left: 40px;
 }
 
 .projectsContainer{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     align-content: space-around;
+    margin-left: 40px;
 }
 
-.bragiDiv{
+.projectDiv{
     display: flex;
-    width: 85%;
+    width: 670px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 60%;
+    transition: 0.3s;
+    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(77deg, rgba(0,0,0,0.84) 28%, rgba(85,85,85,1) 100%);
+}
+
+.projectDiv:hover {
+    display: flex;
+    width: 720px;
+    height: 110px;
     margin-top: 20px;
     margin-bottom: 20px;
     -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
 	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
     background: rgb(0,0,0);
-    background: linear-gradient(45deg, rgba(0,0,0,1) 25%, rgba(84,84,84,0.84) 100%);
+    background: linear-gradient(77deg, rgba(0,0,0,0.84) 28%, rgba(85,85,85,1) 100%);
+    opacity: 100%;
 }
 
-.bragiDiv:hover{
-    display: flex;
-    width: 90%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
-	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
-    background: rgb(0,0,0);
-    background: linear-gradient(145deg, rgba(0,0,0,1) 25%, rgba(84,84,84,0.84) 100%);
+.projectTextContainer{
+    color: white;
+    width: 80%;
 }
 
-.comingSoonDiv{
+.projectTitle{
     display: flex;
-    width: 85%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
-	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
-    background: rgb(0,0,0);
-    background: linear-gradient(45deg, rgba(0,0,0,1) 25%, rgba(84,84,84,0.84) 100%);
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Major Mono Display', monospace;
 }
 
-.comingSoonDiv:hover{
+.projectPreview{
     display: flex;
-    width: 90%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
-	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
-    background: rgb(0,0,0);
-    background: linear-gradient(145deg, rgba(0,0,0,1) 25%, rgba(84,84,84,0.84) 100%);
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
 
-.comingSoonDiv1{
-    display: flex;
-    width: 85%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
-	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
-    background: rgb(0,0,0);
-    background: linear-gradient(145deg, rgba(0,0,0,1) 25%, rgba(84,84,84,0.84) 100%);
+.projectDiv:hover .projectPreview{
+    display: none;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
 }
 
-.comingSoonDiv1:hover{
+.projectDiv:hover .projectTitle{
+    font-size: 30px;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.projectDescription{
+    display: none;
+    font-size: 13.5px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.projectDescriptionNotReady{
+    display: none;
+    font-size: 13.5px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.projectDiv:hover .projectDescriptionNotReady{
     display: flex;
-    width: 90%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
-	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
-    background: rgb(0,0,0);
-    background: linear-gradient(145deg, rgba(0,0,0,1) 25%, rgba(84,84,84,0.84) 100%);
+    justify-content: center;
+    margin-top: 22px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.projectDiv:hover .projectDescription{
+    display: flex;
+    margin-left: 4px;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .insideDivIMG {
@@ -84,15 +118,85 @@
 	clip-path: polygon(0% 0%, 85% 0%, 100% 120%, 0% 100%);
 }
 
+.insideDivIMGNotReady {
+    display: block;
+    height: 120px;
+    width: 120px;
+	-webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 85% 0%, 100% 120%, 0% 100%);
+}
+
+
+
 @keyframes allProjectsContainer {
     from {
-        opacity: 0%;
+        opacity: 0;
     }
     to {
-        opacity: 100%;
+        opacity: 0.80;
     }
 }
 
 .allProjectsContainer div {
-    animation: textContainerHome 3s;
+    animation: allProjectsContainer 1.5s;
 }
+
+.allProjectsContainer img {
+    animation: allProjectsContainer 1.5s;
+}
+
+.allProjectsContainer a {
+    animation: allProjectsContainer 1.5s;
+}
+
+/* .comingSoonDiv{
+    display: flex;
+    width: 60%;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
+    opacity: 0.6;
+    transition: 0.3s;
+    background: rgb(0,0,0);
+    background: linear-gradient(77deg, rgba(0,0,0,0.84) 10%, rgba(130,130,130,1) 100%);
+}
+
+.comingSoonDiv:hover{
+    display: flex;
+    width: 65%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
+    opacity: 1;
+    background: rgb(0,0,0);
+    background: linear-gradient(77deg, rgba(0,0,0,0.84) 10%, rgba(130,130,130,1) 100%);
+}
+
+.comingSoonDiv1{
+    display: flex;
+    width: 60%;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
+    opacity: 0.6;
+    transition: 0.3s;
+    background: rgb(0,0,0);
+    background: linear-gradient(77deg, rgba(0,0,0,0.84) 10%, rgba(130,130,130,1) 100%);
+}
+
+.comingSoonDiv1:hover{
+    display: flex;
+    width: 65%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(77deg, rgba(0,0,0,0.84) 10%, rgba(130,130,130,1) 100%);
+    opacity: 1;
+} */

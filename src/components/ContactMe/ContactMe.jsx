@@ -10,10 +10,11 @@ function ContactMe() {
     return (
         <div className="contactContainer">
             <NavBar></NavBar>
-            <div className="contactLogosAndTextContainer">
-                <div className="sphereIMG">
+            <div className="sphereIMG">
                     <img src={sphere} />
                 </div>
+            <div className="contactLogosAndTextContainer">
+                
                 <div className="contactLinkedInContainer">
                     <a className="linkLinkedIn" href="https://www.linkedin.com/in/facundomazzei/">
                         <img className="linkedInIMG" src={linkedin} />

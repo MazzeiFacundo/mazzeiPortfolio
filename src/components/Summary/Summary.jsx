@@ -3,12 +3,14 @@ import { Link } from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
 import styles from "./Summary.css"
 import me from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/me.jpg"
+import scroll from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/scroll.gif"
 
 function Summary() {
     return (
         <div className="allContainerSummary">
             <NavBar></NavBar>
             <div className="summarySplitContainer">
+            <img className="scrollIMG" src={scroll}></img>
                 <div className="leftDiv">
                     <img className="meIMG" src={me}></img>
 
@@ -26,14 +28,14 @@ function Summary() {
 
                     <div className="summaryTitle">Address
                         <div className="summaryText">
-                            Colon 828, San Pedro, Provincia de Buenos Aires
+                            Colon 828, San Pedro, Provincia de Buenos Aires, Argentina.
                         </div>
                     </div>
 
                     <div className="summaryTitle">LinkedIn
-                        <div className="summaryText">
+                        <a href="https://www.linkedin.com/in/facundomazzei/" className="summaryText">
                             https://www.linkedin.com/in/facundomazzei/
-                        </div>
+                        </a>
                     </div>
 
                     <div className="summaryTitle">E-mail

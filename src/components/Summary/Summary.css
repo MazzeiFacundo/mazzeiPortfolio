@@ -15,7 +15,6 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-left: 120px;
 }
 
 .meIMG{
@@ -27,6 +26,14 @@
     margin-bottom: 20px;
 }
 
+.scrollIMG{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 100px;
+}
+
+
 .summaryTitle{
     font-family: 'Major Mono Display', monospace;
     font-size: 25px;
@@ -37,6 +44,7 @@
 }
 
 .summaryText{
+    display: inline-block;
     color: white;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -137,5 +145,5 @@
 }
 
 .allContainerSummary div {
-    animation: textContainerHome 3s;
+    animation: textContainerHome 1.5s;
 }
