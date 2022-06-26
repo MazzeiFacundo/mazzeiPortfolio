@@ -4,13 +4,14 @@ import NavBar from "../NavBar/NavBar";
 import styles from "./Summary.css"
 import me from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/me.jpg"
 import scroll from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/scroll.gif"
+import linkedin from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/linkedin.png"
 
 function Summary() {
     return (
         <div className="allContainerSummary">
             <NavBar></NavBar>
             <div className="summarySplitContainer">
-            <img className="scrollIMG" src={scroll}></img>
+                <img className="scrollIMG" src={scroll}></img>
                 <div className="leftDiv">
                     <img className="meIMG" src={me}></img>
 
@@ -31,12 +32,11 @@ function Summary() {
                             Colon 828, San Pedro, Provincia de Buenos Aires, Argentina.
                         </div>
                     </div>
-
-                    <div className="summaryTitle">LinkedIn
-                        <a href="https://www.linkedin.com/in/facundomazzei/" className="summaryText">
-                            https://www.linkedin.com/in/facundomazzei/
-                        </a>
-                    </div>
+                        <div className="smallLinkedIn">
+                            <a className="smallLinkLinkedIn" href="https://www.linkedin.com/in/facundomazzei/">
+                                <img className="smallLinkedInIMG" src={linkedin} />
+                            </a>
+                        </div>
 
                     <div className="summaryTitle">E-mail
                         <div className="summaryText">
@@ -87,12 +87,12 @@ function Summary() {
                             </div>
                         </div>
                         <div className="summaryTextSubTitle">Learning time and practical use of technologies studied:
-                                <div className="summaryTextInput">
+                            <div className="summaryTextInput">
                                 +800 Hours
-                                </div>
-                                <div className="summaryTextInput">
-                                    Javascript / ReactJs / NodeJs / Sequelize / SQL / CSS / HTML
-                                </div>
+                            </div>
+                            <div className="summaryTextInput">
+                                Javascript / ReactJs / NodeJs / Sequelize / SQL / CSS / HTML
+                            </div>
                         </div>
                     </div>
                     <div className="summaryTitleRight">Languages:
@@ -101,7 +101,7 @@ function Summary() {
                             </div>
                         </div>
                         <div className="summaryTextInputLanguage">Spanish:
-                            <div className="summaryTextInput"> Native 
+                            <div className="summaryTextInput"> Native
                             </div>
                         </div>
                     </div>

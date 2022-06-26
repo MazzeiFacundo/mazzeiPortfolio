@@ -182,13 +182,21 @@
         max-width: 600px;
         text-align: center;
     }
+
+    .moonIMGContainer{
+        display: flex;
+        justify-content: center;
+        margin: 0%;
+        padding: 0%;
+    }
     
     .moonIMG{
-        position: relative;
-        display: none;
-        right: -200px;
+        position: fixed;
+        display: flex;
         align-self: flex-start;
-        height: 500px;
+        margin-top: 80px;
+        opacity: 90%;
+        animation: rotation 8s infinite linear;
     }
     
     
@@ -282,11 +290,9 @@
     }
     
     .moonIMG{
-        position: relative;
         display: none;
-        right: -200px;
         align-self: flex-start;
-        height: 500px;
+        height: 50%;
     }
     
     @keyframes textContainerHome {
@@ -384,14 +390,18 @@
     }
     
     .moonIMG{
+        position: fixed;
         display: flex;
+        align-self: flex-start;
         opacity: 90%;
-        align-self: flex-end;
+        height: 90%;
         animation: rotation 8s infinite linear;
     }
 
     .moonIMGContainer{
         display: flex;
+        height: 250px;
+        margin: 0%;
     }
     
     @keyframes textContainerHome {
@@ -492,6 +502,213 @@
         position: fixed;
         display: flex;
         align-self: center;
+        opacity: 90%;
+        animation: rotation 8s infinite linear;
+        
+    }
+    
+    @keyframes textContainerHome {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
+        }
+    }
+    
+    @keyframes moonIMG {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
+        }
+    }
+    
+    .textContainerHome h1 {
+        animation: textContainerHome 6s;
+    }
+    
+    .textContainerHome p {
+        animation: textContainerHome 6s;
+    }
+    
+    .moonIMG {
+        animation: textContainerHome 6s;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .homeContainer{
+        display: flex;
+        padding-top: 60px;
+        justify-items: center;
+    }
+    
+    .textContainerHome{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+        align-items: center;
+    }
+    
+    .nameTitleHome{
+        display: flex;
+        color: white;
+        font-family: 'Major Mono Display', monospace;
+        font-weight: 100;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    
+    .underNamePHome1{
+        display: flex;
+        color: white;
+        margin-top: -10px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .underNamePHome2{
+        display: flex;
+        color: white;
+        margin-top: -10px;
+        margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        max-width: 600px;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .underNamePHome3{
+        display: flex;
+        color: white;
+        margin-top: 20px;
+        font-size: 15px;
+        font-family: 'Major Mono Display', monospace;
+        max-width: 600px;
+    }
+    
+    .underNamePHome4{
+        display: flex;
+        color: white;
+        margin-top: 10px;
+        font-size: 10px;
+        font-family: 'Quicksand', sans-serif;
+        max-width: 300px;
+        text-align: center;
+    }
+    
+    .moonIMG{
+        position: fixed;
+        display: flex;
+        align-self: flex-start;
+        opacity: 90%;
+        animation: rotation 8s infinite linear;
+        
+    }
+    
+    @keyframes textContainerHome {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
+        }
+    }
+    
+    @keyframes moonIMG {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
+        }
+    }
+    
+    .textContainerHome h1 {
+        animation: textContainerHome 6s;
+    }
+    
+    .textContainerHome p {
+        animation: textContainerHome 6s;
+    }
+    
+    .moonIMG {
+        animation: textContainerHome 6s;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .homeContainer{
+        display: flex;
+        padding-top: 20px;
+        justify-items: center;
+        text-align: center;
+    }
+    
+    .textContainerHome{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+        align-items: center;
+    }
+    
+    .nameTitleHome{
+        display: flex;
+        color: white;
+        font-family: 'Major Mono Display', monospace;
+        font-weight: 100;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    
+    .underNamePHome1{
+        display: flex;
+        color: white;
+        margin-top: -10px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .underNamePHome2{
+        display: flex;
+        color: white;
+        margin-top: -10px;
+        margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        max-width: 600px;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .underNamePHome3{
+        display: flex;
+        color: white;
+        margin-top: 20px;
+        font-size: 15px;
+        font-family: 'Major Mono Display', monospace;
+        max-width: 600px;
+    }
+    
+    .underNamePHome4{
+        display: flex;
+        color: white;
+        margin-top: 10px;
+        font-size: 10px;
+        font-family: 'Quicksand', sans-serif;
+        max-width: 300px;
+        text-align: center;
+    }
+    
+    .moonIMG{
+        position: fixed;
+        display: flex;
+        align-self: flex-start;
         opacity: 90%;
         animation: rotation 8s infinite linear;
         
