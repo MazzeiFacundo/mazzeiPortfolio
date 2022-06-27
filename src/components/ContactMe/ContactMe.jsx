@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
-import styles from "./ContactMe.css"
+import "./ContactMe.css"
 import linkedin from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/linkedin.png"
 import github from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/github.png"
 import gmail from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/gmail.png"
@@ -11,22 +10,22 @@ function ContactMe() {
         <div className="contactContainer">
             <NavBar></NavBar>
             <div className="sphereIMG">
-                    <img src={sphere} />
+                    <img src={sphere} alt = "none"/>
                 </div>
             <div className="contactLogosAndTextContainer">
                 
                 <div className="contactLinkedInContainer">
                     <a className="linkLinkedIn" href="https://www.linkedin.com/in/facundomazzei/">
-                        <img className="linkedInIMG" src={linkedin} />
+                        <img className="linkedInIMG" src={linkedin} alt = "none" />
                     </a>
                 </div>
                 <div className="contactGmailIMG">
-                    <img className="gmailTrueIMG" src={gmail} />
+                    <img className="gmailTrueIMG" src={gmail} alt = "none" />
                     <div className="contactGmailText">facundomazzeidev@gmail.com</div>
                 </div>
                 <div className="contactGitHubContainer">
                     <a className="linkGitHub" href="https://github.com/MazzeiFacundo">
-                        <img className="contactGitHubIMG" src={github} />
+                        <img className="contactGitHubIMG" src={github} alt = "none" />
                     </a>
                 </div>
             </div>

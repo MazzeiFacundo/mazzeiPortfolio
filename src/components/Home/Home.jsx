@@ -1,15 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
-import {useDispatch, useSelector } from 'react-redux'
 import NavBar from "../NavBar/NavBar";
-import styles from "./Home.css"
+import "./Home.css"
 import moon from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/kisspng-moon-cartoon-black-and-white-white-moon-5a8ea6beaeb4a9.4775455615192982387156.png"
-import stars from  "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/5a28b33e6db3e9.9753794715126167664494.png"
-import sphere from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/esfera.gif"
 
 function Home() {
-    const dispatch = useDispatch()
     return (
         <div className="homeContainer">
             <NavBar></NavBar>
@@ -22,7 +16,7 @@ function Home() {
              with over 800 hours of academic and practical experience of my skills
              I'm exited to start working as a web developer in this new stage of my professional career.</p>
             <p className="underNamePHome4">You're welcome to explore my website and ask about anything!</p>
-            <div className="moonIMGContainer"><img className="moonIMG" src={moon}></img></div>           
+            <div className="moonIMGContainer"><img className="moonIMG" src={moon} alt = "none"></img></div>           
             {/* <div><img className="stars" src={stars}></img></div> */}
             </div>
             {/* <button><Link to='/'>Go back</Link></button> */}

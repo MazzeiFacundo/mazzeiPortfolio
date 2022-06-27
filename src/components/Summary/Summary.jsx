@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
-import styles from "./Summary.css"
+import "./Summary.css"
 import me from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/me.jpg"
 import scroll from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/scroll.gif"
 import linkedin from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/linkedin.png"
@@ -11,9 +10,9 @@ function Summary() {
         <div className="allContainerSummary">
             <NavBar></NavBar>
             <div className="summarySplitContainer">
-                <img className="scrollIMG" src={scroll}></img>
+                <img className="scrollIMG" src={scroll} alt = "none"></img>
                 <div className="leftDiv">
-                    <img className="meIMG" src={me}></img>
+                    <img className="meIMG" src={me} alt = "none"></img>
 
                     <div className="summaryTitle">Summary
                         <div className="summaryText">
@@ -34,7 +33,7 @@ function Summary() {
                     </div>
                         <div className="smallLinkedIn">
                             <a className="smallLinkLinkedIn" href="https://www.linkedin.com/in/facundomazzei/">
-                                <img className="smallLinkedInIMG" src={linkedin} />
+                                <img className="smallLinkedInIMG" src={linkedin} alt = "none"/>
                             </a>
                         </div>
 
