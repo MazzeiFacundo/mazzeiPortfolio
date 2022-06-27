@@ -29,7 +29,7 @@
     height: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
-    opacity: 60%;
+    opacity: 100%;
     transition: 0.3s;
     -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
 	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
@@ -162,7 +162,7 @@
         opacity: 0;
     }
     to {
-        opacity: 0.80;
+        opacity: 100%;
     }
 }
 
