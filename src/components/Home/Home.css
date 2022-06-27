@@ -69,24 +69,6 @@
         animation: rotation 8s infinite linear;
     }
     
-    @keyframes textContainerHome {
-        from {
-            opacity: 0%;
-        }
-        to {
-            opacity: 100%;
-        }
-    }
-    
-    @keyframes moonIMG {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(359deg);
-        }
-        
-    }
 
     @keyframes moonIMG {
         from {
@@ -121,7 +103,7 @@
 
     .moonIMGContainer {
         animation: textContainerHome 10s;
-    }
+    } 
     
     
 }
@@ -200,21 +182,22 @@
     }
     
     
-    @keyframes textContainerHome {
-        from {
-            opacity: 0%;
-        }
-        to {
-            opacity: 100%;
-        }
-    }
-    
     @keyframes moonIMG {
         from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+        
+    }
+
+    @keyframes moonIMGContainer {
+        from {
             opacity: 0%;
         }
         to {
-            opacity: 100%;
+            opacity: 90%;
         }
     }
     
@@ -227,8 +210,12 @@
     }
     
     .moonIMG {
-        animation: textContainerHome 6s;
-    }
+        animation: moonIMG 360s infinite linear;
+        }
+
+    .moonIMGContainer {
+        animation: textContainerHome 10s;
+    } 
     
 }
 
@@ -295,21 +282,22 @@
         height: 50%;
     }
     
-    @keyframes textContainerHome {
-        from {
-            opacity: 0%;
-        }
-        to {
-            opacity: 100%;
-        }
-    }
-    
     @keyframes moonIMG {
         from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+        
+    }
+
+    @keyframes moonIMGContainer {
+        from {
             opacity: 0%;
         }
         to {
-            opacity: 100%;
+            opacity: 90%;
         }
     }
     
@@ -322,8 +310,12 @@
     }
     
     .moonIMG {
-        animation: textContainerHome 6s;
-    }
+        animation: moonIMG 360s infinite linear;
+        }
+
+    .moonIMGContainer {
+        animation: textContainerHome 10s;
+    } 
     
 }
 
@@ -404,21 +396,22 @@
         margin: 0%;
     }
     
-    @keyframes textContainerHome {
-        from {
-            opacity: 0%;
-        }
-        to {
-            opacity: 100%;
-        }
-    }
-    
     @keyframes moonIMG {
         from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+        
+    }
+
+    @keyframes moonIMGContainer {
+        from {
             opacity: 0%;
         }
         to {
-            opacity: 100%;
+            opacity: 90%;
         }
     }
     
@@ -431,8 +424,12 @@
     }
     
     .moonIMG {
-        animation: textContainerHome 6s;
-    }
+        animation: moonIMG 360s infinite linear;
+        }
+
+    .moonIMGContainer {
+        animation: textContainerHome 10s;
+    } 
 }
 
 @media screen and (max-width: 365px){
@@ -507,21 +504,22 @@
         
     }
     
-    @keyframes textContainerHome {
-        from {
-            opacity: 0%;
-        }
-        to {
-            opacity: 100%;
-        }
-    }
-    
     @keyframes moonIMG {
         from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+        
+    }
+
+    @keyframes moonIMGContainer {
+        from {
             opacity: 0%;
         }
         to {
-            opacity: 100%;
+            opacity: 90%;
         }
     }
     
@@ -534,8 +532,12 @@
     }
     
     .moonIMG {
-        animation: textContainerHome 6s;
-    }
+        animation: moonIMG 360s infinite linear;
+        }
+
+    .moonIMGContainer {
+        animation: textContainerHome 10s;
+    } 
 }
 
 @media screen and (max-width: 360px){
@@ -610,21 +612,22 @@
         
     }
     
-    @keyframes textContainerHome {
-        from {
-            opacity: 0%;
-        }
-        to {
-            opacity: 100%;
-        }
-    }
-    
     @keyframes moonIMG {
         from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+        
+    }
+
+    @keyframes moonIMGContainer {
+        from {
             opacity: 0%;
         }
         to {
-            opacity: 100%;
+            opacity: 90%;
         }
     }
     
@@ -637,8 +640,12 @@
     }
     
     .moonIMG {
-        animation: textContainerHome 6s;
-    }
+        animation: moonIMG 360s infinite linear;
+        }
+
+    .moonIMGContainer {
+        animation: textContainerHome 10s;
+    } 
 }
 
 @media screen and (max-width: 280px){
@@ -714,21 +721,22 @@
         
     }
     
-    @keyframes textContainerHome {
-        from {
-            opacity: 0%;
-        }
-        to {
-            opacity: 100%;
-        }
-    }
-    
     @keyframes moonIMG {
         from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+        
+    }
+
+    @keyframes moonIMGContainer {
+        from {
             opacity: 0%;
         }
         to {
-            opacity: 100%;
+            opacity: 90%;
         }
     }
     
@@ -741,7 +749,11 @@
     }
     
     .moonIMG {
-        animation: textContainerHome 6s;
-    }
+        animation: moonIMG 360s infinite linear;
+        }
+
+    .moonIMGContainer {
+        animation: textContainerHome 10s;
+    } 
 }
 

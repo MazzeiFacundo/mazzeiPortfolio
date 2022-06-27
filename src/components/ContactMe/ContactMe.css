@@ -289,7 +289,7 @@
         width: 105%;
     }
 
-    @keyframes contactLogosAndTextContainer {
+    /* @keyframes contactLogosAndTextContainer {
         from {
             opacity: 0%;
         }
@@ -319,7 +319,7 @@
 
     .contactLogosAndTextContainer div {
         animation: textContainerHome 1.5s;
-    }
+    } */
 }
 
 @media screen and (max-width: 414px) {
@@ -456,7 +456,7 @@
         width: 60%;
     }
 
-    @keyframes contactLogosAndTextContainer {
+    /* @keyframes contactLogosAndTextContainer {
         from {
             opacity: 0%;
         }
@@ -486,5 +486,5 @@
 
     .contactLogosAndTextContainer div {
         animation: textContainerHome 1.5s;
-    }
+    } */
 }
