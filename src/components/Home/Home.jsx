@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
 import "./Home.css"
-import moon from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/kisspng-moon-cartoon-black-and-white-white-moon-5a8ea6beaeb4a9.4775455615192982387156.png"
+import moon from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/moon.png"
 
 function Home() {
     return (
