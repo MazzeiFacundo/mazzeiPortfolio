@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b29e194.chunk.css",
-    "main.js": "/static/js/main.2c5ac143.chunk.js",
-    "main.js.map": "/static/js/main.2c5ac143.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5e4ccdef.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5e4ccdef.js.map",
-    "static/js/2.90abe124.chunk.js": "/static/js/2.90abe124.chunk.js",
-    "static/js/2.90abe124.chunk.js.map": "/static/js/2.90abe124.chunk.js.map",
-    "static/js/3.9dba3075.chunk.js": "/static/js/3.9dba3075.chunk.js",
-    "static/js/3.9dba3075.chunk.js.map": "/static/js/3.9dba3075.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.0b29e194.chunk.css.map": "/static/css/main.0b29e194.chunk.css.map",
-    "static/js/2.90abe124.chunk.js.LICENSE.txt": "/static/js/2.90abe124.chunk.js.LICENSE.txt",
-    "static/media/clock.d7899f01.gif": "/static/media/clock.d7899f01.gif",
-    "static/media/codeScroll.c97a8ecd.gif": "/static/media/codeScroll.c97a8ecd.gif",
-    "static/media/esfera.eef23d08.gif": "/static/media/esfera.eef23d08.gif",
-    "static/media/github.acd5855c.png": "/static/media/github.acd5855c.png",
-    "static/media/gmail.10f2390f.png": "/static/media/gmail.10f2390f.png",
-    "static/media/kisspng-moon-cartoon-black-and-white-white-moon-5a8ea6beaeb4a9.4775455615192982387156.52dd4b6e.png": "/static/media/kisspng-moon-cartoon-black-and-white-white-moon-5a8ea6beaeb4a9.4775455615192982387156.52dd4b6e.png",
-    "static/media/me.3bd99b9b.jpg": "/static/media/me.3bd99b9b.jpg"
+    "main.css": "/mazzeiPortfolio/static/css/main.475ecde7.chunk.css",
+    "main.js": "/mazzeiPortfolio/static/js/main.5e8daab3.chunk.js",
+    "main.js.map": "/mazzeiPortfolio/static/js/main.5e8daab3.chunk.js.map",
+    "runtime-main.js": "/mazzeiPortfolio/static/js/runtime-main.e6baf0eb.js",
+    "runtime-main.js.map": "/mazzeiPortfolio/static/js/runtime-main.e6baf0eb.js.map",
+    "static/js/2.90abe124.chunk.js": "/mazzeiPortfolio/static/js/2.90abe124.chunk.js",
+    "static/js/2.90abe124.chunk.js.map": "/mazzeiPortfolio/static/js/2.90abe124.chunk.js.map",
+    "static/js/3.9dba3075.chunk.js": "/mazzeiPortfolio/static/js/3.9dba3075.chunk.js",
+    "static/js/3.9dba3075.chunk.js.map": "/mazzeiPortfolio/static/js/3.9dba3075.chunk.js.map",
+    "index.html": "/mazzeiPortfolio/index.html",
+    "static/css/main.475ecde7.chunk.css.map": "/mazzeiPortfolio/static/css/main.475ecde7.chunk.css.map",
+    "static/js/2.90abe124.chunk.js.LICENSE.txt": "/mazzeiPortfolio/static/js/2.90abe124.chunk.js.LICENSE.txt",
+    "static/media/clock.d7899f01.gif": "/mazzeiPortfolio/static/media/clock.d7899f01.gif",
+    "static/media/codeScroll.c97a8ecd.gif": "/mazzeiPortfolio/static/media/codeScroll.c97a8ecd.gif",
+    "static/media/esfera.eef23d08.gif": "/mazzeiPortfolio/static/media/esfera.eef23d08.gif",
+    "static/media/github.acd5855c.png": "/mazzeiPortfolio/static/media/github.acd5855c.png",
+    "static/media/gmail.10f2390f.png": "/mazzeiPortfolio/static/media/gmail.10f2390f.png",
+    "static/media/me.3bd99b9b.jpg": "/mazzeiPortfolio/static/media/me.3bd99b9b.jpg",
+    "static/media/moon.52dd4b6e.png": "/mazzeiPortfolio/static/media/moon.52dd4b6e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5e4ccdef.js",
+    "static/js/runtime-main.e6baf0eb.js",
     "static/js/2.90abe124.chunk.js",
-    "static/css/main.0b29e194.chunk.css",
-    "static/js/main.2c5ac143.chunk.js"
+    "static/css/main.475ecde7.chunk.css",
+    "static/js/main.5e8daab3.chunk.js"
   ]
 }
