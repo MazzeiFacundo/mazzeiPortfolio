@@ -28,7 +28,7 @@ function Summary() {
 
                     <div className="summaryTitle">Address
                         <div className="summaryText">
-                            Colon 828, San Pedro, Provincia de Buenos Aires, Argentina.
+                            San Pedro, Provincia de Buenos Aires, Argentina.
                         </div>
                     </div>
                         <div className="smallLinkedIn">

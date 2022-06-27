@@ -65,10 +65,28 @@
         bottom: -250px;
         align-self: flex-start;
         height: 750px;
-        opacity: 100%;
+        opacity: 90%;
         animation: rotation 8s infinite linear;
     }
     
+    @keyframes textContainerHome {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
+        }
+    }
+    
+    @keyframes moonIMG {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+        
+    }
 
     @keyframes moonIMG {
         from {
@@ -103,7 +121,7 @@
 
     .moonIMGContainer {
         animation: textContainerHome 10s;
-    } 
+    }
     
     
 }
@@ -177,27 +195,26 @@
         display: flex;
         align-self: flex-start;
         margin-top: 80px;
-        opacity: 100%;
+        opacity: 90%;
         animation: rotation 8s infinite linear;
     }
     
     
-    @keyframes moonIMG {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(359deg);
-        }
-        
-    }
-
-    @keyframes moonIMGContainer {
+    @keyframes textContainerHome {
         from {
             opacity: 0%;
         }
         to {
-            opacity: 90%;
+            opacity: 100%;
+        }
+    }
+    
+    @keyframes moonIMG {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
         }
     }
     
@@ -210,12 +227,8 @@
     }
     
     .moonIMG {
-        animation: moonIMG 360s infinite linear;
-        }
-
-    .moonIMGContainer {
-        animation: textContainerHome 10s;
-    } 
+        animation: textContainerHome 6s;
+    }
     
 }
 
@@ -282,22 +295,21 @@
         height: 50%;
     }
     
-    @keyframes moonIMG {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(359deg);
-        }
-        
-    }
-
-    @keyframes moonIMGContainer {
+    @keyframes textContainerHome {
         from {
             opacity: 0%;
         }
         to {
-            opacity: 90%;
+            opacity: 100%;
+        }
+    }
+    
+    @keyframes moonIMG {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
         }
     }
     
@@ -310,12 +322,8 @@
     }
     
     .moonIMG {
-        animation: moonIMG 360s infinite linear;
-        }
-
-    .moonIMGContainer {
-        animation: textContainerHome 10s;
-    } 
+        animation: textContainerHome 6s;
+    }
     
 }
 
@@ -396,22 +404,21 @@
         margin: 0%;
     }
     
-    @keyframes moonIMG {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(359deg);
-        }
-        
-    }
-
-    @keyframes moonIMGContainer {
+    @keyframes textContainerHome {
         from {
             opacity: 0%;
         }
         to {
-            opacity: 90%;
+            opacity: 100%;
+        }
+    }
+    
+    @keyframes moonIMG {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
         }
     }
     
@@ -424,12 +431,8 @@
     }
     
     .moonIMG {
-        animation: moonIMG 360s infinite linear;
-        }
-
-    .moonIMGContainer {
-        animation: textContainerHome 10s;
-    } 
+        animation: textContainerHome 6s;
+    }
 }
 
 @media screen and (max-width: 365px){
@@ -504,22 +507,21 @@
         
     }
     
-    @keyframes moonIMG {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(359deg);
-        }
-        
-    }
-
-    @keyframes moonIMGContainer {
+    @keyframes textContainerHome {
         from {
             opacity: 0%;
         }
         to {
-            opacity: 90%;
+            opacity: 100%;
+        }
+    }
+    
+    @keyframes moonIMG {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
         }
     }
     
@@ -532,12 +534,8 @@
     }
     
     .moonIMG {
-        animation: moonIMG 360s infinite linear;
-        }
-
-    .moonIMGContainer {
-        animation: textContainerHome 10s;
-    } 
+        animation: textContainerHome 6s;
+    }
 }
 
 @media screen and (max-width: 360px){
@@ -612,22 +610,21 @@
         
     }
     
-    @keyframes moonIMG {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(359deg);
-        }
-        
-    }
-
-    @keyframes moonIMGContainer {
+    @keyframes textContainerHome {
         from {
             opacity: 0%;
         }
         to {
-            opacity: 90%;
+            opacity: 100%;
+        }
+    }
+    
+    @keyframes moonIMG {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
         }
     }
     
@@ -640,12 +637,8 @@
     }
     
     .moonIMG {
-        animation: moonIMG 360s infinite linear;
-        }
-
-    .moonIMGContainer {
-        animation: textContainerHome 10s;
-    } 
+        animation: textContainerHome 6s;
+    }
 }
 
 @media screen and (max-width: 280px){
@@ -721,22 +714,21 @@
         
     }
     
-    @keyframes moonIMG {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(359deg);
-        }
-        
-    }
-
-    @keyframes moonIMGContainer {
+    @keyframes textContainerHome {
         from {
             opacity: 0%;
         }
         to {
-            opacity: 90%;
+            opacity: 100%;
+        }
+    }
+    
+    @keyframes moonIMG {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
         }
     }
     
@@ -749,11 +741,7 @@
     }
     
     .moonIMG {
-        animation: moonIMG 360s infinite linear;
-        }
-
-    .moonIMGContainer {
-        animation: textContainerHome 10s;
-    } 
+        animation: textContainerHome 6s;
+    }
 }
 

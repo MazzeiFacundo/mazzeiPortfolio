@@ -179,7 +179,7 @@
         margin-top: 10px;
     }
 
-    /* @keyframes allContainerSummary {
+    @keyframes allContainerSummary {
         from {
             opacity: 0%;
         }
@@ -191,7 +191,7 @@
 
     .allContainerSummary div {
         animation: textContainerHome 1.5s;
-    } */
+    }
 }
 
 @media screen and (max-width: 1174px){
@@ -376,7 +376,7 @@
         margin-top: 10px;
     }
 
-    /* @keyframes allContainerSummary {
+    @keyframes allContainerSummary {
         from {
             opacity: 0%;
         }
@@ -388,7 +388,7 @@
 
     .allContainerSummary div {
         animation: textContainerHome 1.5s;
-    } */
+    }
 }
 
 @media screen and (max-width: 950px){
@@ -559,7 +559,7 @@
         margin-top: 10px;
     }
 
-    /* @keyframes allContainerSummary {
+    @keyframes allContainerSummary {
         from {
             opacity: 0%;
         }
@@ -571,7 +571,7 @@
 
     .allContainerSummary div {
         animation: textContainerHome 1.5s;
-    } */
+    }
 }
 
 @media screen and (max-width: 805px){
@@ -745,7 +745,7 @@
         margin-top: 10px;
     }
 
-    /* @keyframes allContainerSummary {
+    @keyframes allContainerSummary {
         from {
             opacity: 0%;
         }
@@ -757,7 +757,7 @@
 
     .allContainerSummary div {
         animation: textContainerHome 1.5s;
-    } */
+    }
 }
 
 @media screen and (max-width: 725px){
@@ -929,7 +929,7 @@
         margin-top: 10px;
     }
 
-    /* @keyframes allContainerSummary {
+    @keyframes allContainerSummary {
         from {
             opacity: 0%;
         }
@@ -941,7 +941,7 @@
 
     .allContainerSummary div {
         animation: textContainerHome 1.5s;
-    } */
+    }
 }
 
 @media screen and (max-width: 700px){
@@ -1111,7 +1111,7 @@
         margin-top: 10px;
     }
 
-    /* @keyframes allContainerSummary {
+    @keyframes allContainerSummary {
         from {
             opacity: 0%;
         }
@@ -1123,7 +1123,7 @@
 
     .allContainerSummary div {
         animation: textContainerHome 1.5s;
-    } */
+    }
 }
 
 @media screen and (max-width: 660px){
@@ -1294,7 +1294,7 @@
         margin-top: 10px;
     }
 
-    /* @keyframes allContainerSummary {
+    @keyframes allContainerSummary {
         from {
             opacity: 0%;
         }
@@ -1306,7 +1306,7 @@
 
     .allContainerSummary div {
         animation: textContainerHome 1.5s;
-    } */
+    }
 }
 
 @media screen and (max-width: 530px){
@@ -1491,7 +1491,7 @@
         margin-top: 10px;
     }
 
-    /* @keyframes allContainerSummary {
+    @keyframes allContainerSummary {
         from {
             opacity: 0%;
         }
@@ -1503,7 +1503,7 @@
 
     .allContainerSummary div {
         animation: textContainerHome 1.5s;
-    } */
+    }
 }
 
 @media screen and (max-width: 420px){
@@ -1690,7 +1690,7 @@
         margin-top: 10px;
     }
 
-    /* @keyframes allContainerSummary {
+    @keyframes allContainerSummary {
         from {
             opacity: 0%;
         }
@@ -1702,7 +1702,7 @@
 
     .allContainerSummary div {
         animation: textContainerHome 1.5s;
-    } */
+    }
 }
 
 @media screen and (max-width: 360px){
@@ -1880,7 +1880,7 @@
         margin-top: 10px;
     }
 
-    /* @keyframes allContainerSummary {
+    @keyframes allContainerSummary {
         from {
             opacity: 0%;
         }
@@ -1892,5 +1892,5 @@
 
     .allContainerSummary div {
         animation: textContainerHome 1.5s;
-    } */
+    }
 }
