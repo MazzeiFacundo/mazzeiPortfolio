@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
 import "./Home.css"
-// import moon from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/Home/moon.png"
+import moon from "./moon.png"
 
 function Home() {
     return (
@@ -16,7 +16,7 @@ function Home() {
              with over 800 hours of academic and practical experience of my skills
              I'm exited to start working as a web developer in this new stage of my professional career.</p>
             <p className="underNamePHome4">You're welcome to explore my website and ask about anything!</p>
-            {/* <div className="moonIMGContainer"><img className="moonIMG" src={moon} alt = "none"></img></div>            */}
+            <div className="moonIMGContainer"><img className="moonIMG" src={moon} alt = "none"></img></div>           
             {/* <div><img className="stars" src={stars}></img></div> */}
             </div>
             {/* <button><Link to='/'>Go back</Link></button> */}

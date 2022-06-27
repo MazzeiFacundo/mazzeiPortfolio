@@ -1,9 +1,9 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
 import "./Summary.css"
-import me from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/Summary/me.jpg"
-import scroll from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/Summary/scroll.gif"
-import linkedin from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/Summary/linked.png"
+import me from "./me.jpg"
+import scroll from "./scroll.gif"
+import linkedin from "./linked.png"
 
 function Summary() {
     return (
