@@ -1,9 +1,9 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
 import "./MyProjects.css"
-import clock from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/clock.gif"
-import bragi from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/BragiIMG.png"
-import codeScroll from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/codeScroll.gif"
+import clock from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/MyProjects/clock.gif"
+import bragi from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/MyProjects/BragiIMG.png"
+import codeScroll from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/MyProjects/codeScroll.gif"
 
 function MyProjects() {
     return (

@@ -1,10 +1,10 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
 import "./ContactMe.css"
-import linkedin from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/linkedin.png"
-import github from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/github.png"
-import gmail from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/gmail.png"
-import sphere from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/esfera.gif"
+import linkedin from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/ContactMe/linked.png"
+import github from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/ContactMe/github.png"
+import gmail from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/ContactMe/gmail.png"
+import sphere from "C:/Users/facum/Facu Programacion/PI-Videogames-main/client/src/components/ContactMe/esfera.gif"
 function ContactMe() {
     return (
         <div className="contactContainer">
