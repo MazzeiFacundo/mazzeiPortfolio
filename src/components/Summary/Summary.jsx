@@ -38,8 +38,8 @@ function Summary() {
                             </a>
                         </div>
 
-                    <div className="summaryTitle">E-mail
-                        <div className="summaryText">
+                    <div className="summaryTitleEmail">E-mail
+                        <div className="summaryTextEmail">
                             facundomazzeidev@gmail.com
                         </div>
                     </div>

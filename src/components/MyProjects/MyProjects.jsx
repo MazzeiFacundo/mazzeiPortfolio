@@ -18,14 +18,14 @@ function MyProjects() {
                         <div className="projectTitle">Bragi</div>
                         <div className="projectPreview">A music oriented social media</div>
                         <div className="projectDescription">The Bragi App connects artists with his fans through music-oriented posts. You can follow your favourite artists, see their posts in real time, and like them.</div>
-                        <a className="projectDescription" href="https://bragi-nine.vercel.app/">Click here to visit the project!</a>
+                        <a className="projectDescriptionLink" href="https://bragi-nine.vercel.app/">Click here to visit the project!</a>
                     </div>
                 </div>
                 <div className="projectDiv">
                 <img src={clock} className="insideDivIMGNotReady"></img>
                     <div className="projectTextContainer">
                         <div className="projectTitle">Coming Soon</div>
-                        <div className="projectPreview">Working on new projects!</div>
+                        <div className="projectPreviewNotReady">Working on new projects!</div>
                         <div className="projectDescriptionNotReady">Come back soon to see my next project once it´s completed.</div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ function MyProjects() {
                     <img src={clock} className="insideDivIMGNotReady"></img>
                     <div className="projectTextContainer">
                         <div className="projectTitle">Coming Soon</div>
-                        <div className="projectPreview">Working on new projects!</div>
+                        <div className="projectPreviewNotReady">Working on new projects!</div>
                         <div className="projectDescriptionNotReady">Come back soon to see my next project once it´s completed.</div>
                     </div>
                 </div>

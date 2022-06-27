@@ -1,3 +1,6 @@
+
+@media screen and (min-width: 900px) {
+
 .allProjectsContainer{
     display: flex;
     flex-direction: row;
@@ -67,7 +70,23 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+.projectPreviewNotReady{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
 .projectDiv:hover .projectPreview{
+    display: none;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.projectDiv:hover .projectPreviewNotReady{
     display: none;
     justify-content: center;
     margin-top: 15px;
@@ -81,6 +100,16 @@
 }
 
 .projectDescription{
+    display: none;
+    font-size: 13.5px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.projectDescriptionLink{
     display: none;
     font-size: 13.5px;
     font-family: 'Quicksand', sans-serif;
@@ -149,54 +178,331 @@
     animation: allProjectsContainer 1.5s;
 }
 
-/* .comingSoonDiv{
-    display: flex;
-    width: 60%;
-    height: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
-	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
-    opacity: 0.6;
-    transition: 0.3s;
-    background: rgb(0,0,0);
-    background: linear-gradient(77deg, rgba(0,0,0,0.84) 10%, rgba(130,130,130,1) 100%);
+
 }
 
-.comingSoonDiv:hover{
-    display: flex;
-    width: 65%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
-	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
-    opacity: 1;
-    background: rgb(0,0,0);
-    background: linear-gradient(77deg, rgba(0,0,0,0.84) 10%, rgba(130,130,130,1) 100%);
-}
 
-.comingSoonDiv1{
-    display: flex;
-    width: 60%;
-    height: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
-	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
-    opacity: 0.6;
-    transition: 0.3s;
-    background: rgb(0,0,0);
-    background: linear-gradient(77deg, rgba(0,0,0,0.84) 10%, rgba(130,130,130,1) 100%);
-}
+@media screen and (max-width: 820px) {
 
-.comingSoonDiv1:hover{
-    display: flex;
-    width: 65%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
-	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
-    background: rgb(0,0,0);
-    background: linear-gradient(77deg, rgba(0,0,0,0.84) 10%, rgba(130,130,130,1) 100%);
-    opacity: 1;
-} */
+    .allProjectsContainer{
+        display: flex;
+        flex-direction: row;
+        padding-top: 120px;
+        align-items: center;
+    }
+    
+    .dummyIMG{
+        display: none;
+        width: 500px;
+        height: 440px;
+        margin-left: 40px;
+    }
+    
+    .projectsContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: space-around;
+        margin-left: 40px;
+    }
+    
+    .projectDiv{
+        display: flex;
+        width: 670px;
+        height: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        opacity: 60%;
+        transition: 0.3s;
+        -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
+        background: rgb(0,0,0);
+        background: linear-gradient(77deg, rgba(0,0,0,0.84) 28%, rgba(85,85,85,1) 100%);
+    }
+    
+    .projectDiv:hover {
+        display: flex;
+        width: 720px;
+        height: 110px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
+        background: rgb(0,0,0);
+        background: linear-gradient(77deg, rgba(0,0,0,0.84) 28%, rgba(85,85,85,1) 100%);
+        opacity: 100%;
+    }
+    
+    .projectTextContainer{
+        color: white;
+        width: 80%;
+    }
+    
+    .projectTitle{
+        display: flex;
+        margin-top: 10px;
+        font-size: 30px;
+        font-family: 'Major Mono Display', monospace;
+    }
+    
+    .projectPreview{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        font-size: 20px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .projectPreviewNotReady{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        font-size: 20px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .projectDiv:hover .projectPreview{
+        display: none;
+        justify-content: center;
+        margin-top: 15px;
+        font-size: 20px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .projectDiv:hover .projectPreviewNotReady{
+        display: none;
+        justify-content: center;
+        margin-top: 15px;
+        font-size: 20px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .projectDiv:hover .projectTitle{
+        font-size: 30px;
+        font-family: 'Major Mono Display', monospace;
+    }
+    
+    .projectDescription{
+        display: none;
+        font-size: 13.5px;
+        font-family: 'Quicksand', sans-serif;
+        text-decoration: none;
+        color: white;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    
+    .projectDescriptionLink{
+        display: none;
+        font-size: 13.5px;
+        font-family: 'Quicksand', sans-serif;
+        text-decoration: none;
+        color: white;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    
+    .projectDescriptionNotReady{
+        display: none;
+        font-size: 13.5px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .projectDiv:hover .projectDescriptionNotReady{
+        display: flex;
+        justify-content: center;
+        margin-top: 22px;
+        font-size: 16px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .projectDiv:hover .projectDescription{
+        display: flex;
+        margin-left: 4px;
+        font-size: 15px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .insideDivIMG {
+        display: block;
+        height: 120px;
+        -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 85% 0%, 100% 120%, 0% 100%);
+    }
+    
+    .insideDivIMGNotReady {
+        display: block;
+        height: 120px;
+        width: 120px;
+        -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 85% 0%, 100% 120%, 0% 100%);
+    }
+    
+    
+    
+    @keyframes allProjectsContainer {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 0.80;
+        }
+    }
+    
+    .allProjectsContainer div {
+        animation: allProjectsContainer 1.5s;
+    }
+    
+    .allProjectsContainer img {
+        animation: allProjectsContainer 1.5s;
+    }
+    
+    .allProjectsContainer a {
+        animation: allProjectsContainer 1.5s;
+    }
+    
+    
+    }
+
+@media screen and (max-width: 414px) {
+
+    .allProjectsContainer{
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+        align-items: center;
+    }
+    
+    .dummyIMG{
+        display: none;
+        width: 500px;
+        height: 440px;
+    }
+    
+    .projectsContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-around;
+        padding: 0px;
+    }
+    
+    .projectDiv{
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        opacity: 100%;
+        transition: 0.3s;
+        background: rgb(0,0,0);
+        background: linear-gradient(77deg, rgba(0,0,0,0.84) 28%, rgba(85,85,85,1) 100%);
+    }
+    
+    
+    .projectTextContainer{
+        color: white;
+        width: 80%;
+    }
+    
+    .projectTitle{
+        display: flex;
+        margin-top: 10px;
+        font-size: 15px;
+        font-family: 'Major Mono Display', monospace;
+    }
+    
+    .projectPreview{
+        display: none;
+        justify-content: center;
+        margin-top: 15px;
+        margin-left: 20px;
+        font-size: 15px;
+        width: 70%;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .projectPreviewNotReady{
+        display: none;
+        justify-content: center;
+        margin-top: 15px;
+        font-size: 15px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .projectDiv:hover .projectPreview{
+        display: none;
+        justify-content: center;
+        margin-top: 15px;
+        font-size: 20px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    
+    .projectDescription{
+        display: flex;
+        font-size: 10px;
+        font-family: 'Quicksand', sans-serif;
+        text-decoration: none;
+        color: white;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .projectDescriptionLink{
+        display: flex;
+        font-size: 15px;
+        font-family: 'Quicksand', sans-serif;
+        text-decoration: none;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 4px;
+    }
+    
+    .projectDescriptionNotReady{
+        display: flex;
+        margin-top: 15px;
+        margin-left: 10px;
+        font-size: 12px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    .insideDivIMG {
+        display: block;
+        height: 120px;
+        -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 85% 0%, 100% 120%, 0% 100%);
+    }
+    
+    .insideDivIMGNotReady {
+        display: block;
+        height: 120px;
+        width: 120px;
+        -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 85% 0%, 100% 120%, 0% 100%);
+    }
+    
+    
+    
+    @keyframes allProjectsContainer {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 0.80;
+        }
+    }
+    
+    .allProjectsContainer div {
+        animation: allProjectsContainer 1.5s;
+    }
+    
+    .allProjectsContainer img {
+        animation: allProjectsContainer 1.5s;
+    }
+    
+    .allProjectsContainer a {
+        animation: allProjectsContainer 1.5s;
+    }
+    
+    
+    }

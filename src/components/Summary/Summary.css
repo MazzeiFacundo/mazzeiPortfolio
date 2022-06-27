@@ -43,6 +43,15 @@
         text-align: start;
     }
 
+    .summaryTitleEmail{
+        font-family: 'Major Mono Display', monospace;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 20px;
+        color: white;
+        text-align: start;
+    }
+
     .summaryText {
         display: inline-block;
         color: white;
@@ -54,6 +63,16 @@
         text-align: start;
     }
 
+    .summaryTextEmail{
+        display: inline-block;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+        width: 95%;
+        text-align: start;
+    }
     .smallLinkedIn{
         display: flex;
         margin-left: 14px;
@@ -220,7 +239,27 @@
         text-align: start;
     }
 
+    .summaryTitleEmail{
+        font-family: 'Major Mono Display', monospace;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-left: 20px;
+        color: white;
+        text-align: start;
+    }
+
     .summaryText {
+        display: inline-block;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+        width: 95%;
+        text-align: start;
+    }
+
+    .summaryTextEmail{
         display: inline-block;
         color: white;
         margin-top: 20px;
@@ -397,7 +436,27 @@
         text-align: start;
     }
 
+    .summaryTitleEmail{
+        font-family: 'Major Mono Display', monospace;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 20px;
+        color: white;
+        text-align: start;
+    }
+
     .summaryText {
+        display: inline-block;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 13px;
+        width: 95%;
+        text-align: start;
+    }
+
+    .summaryTextEmail{
         display: inline-block;
         color: white;
         margin-top: 20px;
@@ -560,7 +619,28 @@
         text-align: start;
     }
 
+    .summaryTitleEmail{
+        font-family: 'Major Mono Display', monospace;
+        font-size: 17px;
+        margin-top: 20px;
+        margin-left: 20px;
+        color: white;
+        text-align: start;
+    }
+
     .summaryText {
+        display: inline-block;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 12px;
+        width: 95%;
+        text-align: start;
+        margin-right:10px;
+    }
+
+    .summaryTextEmail{
         display: inline-block;
         color: white;
         margin-top: 20px;
@@ -724,9 +804,29 @@
         color: white;
         text-align: start;
     }
+
+    .summaryTitleEmail{
+        font-family: 'Major Mono Display', monospace;
+        font-size: 17px;
+        margin-top: 20px;
+        margin-left: 20px;
+        color: white;
+        text-align: start;
+    }
     
 
     .summaryText {
+        display: inline-block;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 12px;
+        width: 95%;
+        text-align: start;
+    }
+
+    .summaryTextEmail{
         display: inline-block;
         color: white;
         margin-top: 20px;
@@ -889,7 +989,27 @@
         text-align: start;
     }
 
+    .summaryTitleEmail{
+        font-family: 'Major Mono Display', monospace;
+        font-size: 17px;
+        margin-top: 20px;
+        margin-left: 20px;
+        color: white;
+        text-align: start;
+    }
+
     .summaryText {
+        display: inline-block;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 12px;
+        width: 95%;
+        text-align: start;
+    }
+
+    .summaryTextEmail{
         display: inline-block;
         color: white;
         margin-top: 20px;
@@ -1051,7 +1171,28 @@
         text-align: start;
     }
 
+    .summaryTitleEmail{
+        font-family: 'Major Mono Display', monospace;
+        font-size: 17px;
+        margin-top: 20px;
+        margin-left: 20px;
+        color: white;
+        text-align: start;
+    }
+
+
     .summaryText {
+        display: inline-block;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 12px;
+        width: 95%;
+        text-align: start;
+    }
+
+    .summaryTextEmail{
         display: inline-block;
         color: white;
         margin-top: 20px;
@@ -1213,7 +1354,27 @@
         text-align: start;
     }
 
+    .summaryTitleEmail{
+        font-family: 'Major Mono Display', monospace;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 20px;
+        color: white;
+        text-align: start;
+    }
+
     .summaryText {
+        display: inline-block;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 10px;
+        width: 95%;
+        text-align: start;
+    }
+
+    .summaryTextEmail{
         display: inline-block;
         color: white;
         margin-top: 20px;
@@ -1324,6 +1485,395 @@
     .summaryTextInputLanguage {
         font-family: 'Quicksand', sans-serif;
         font-size: 13px;
+        color: white;
+        text-align: start;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    @keyframes allContainerSummary {
+        from {
+            opacity: 0%;
+        }
+
+        to {
+            opacity: 100%;
+        }
+    }
+
+    .allContainerSummary div {
+        animation: textContainerHome 1.5s;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .allContainerSummary {
+        padding-top: 70px;
+        z-index: 2;
+        padding-bottom: 70px;
+    }
+
+    .summarySplitContainer {
+        display: flex;
+        flex-direction: row;
+        padding-top: 10px;
+    }
+
+    .leftDiv {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .meIMG {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 120px;
+        border-radius: 250px;
+        margin-bottom: 20px;
+    }
+
+    .scrollIMG {
+        display: none;
+        flex-direction: column;
+        align-self: flex-start;
+        width: 60px;
+    }
+
+
+    .summaryTitle {
+        font-family: 'Major Mono Display', monospace;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 15px;
+        color: white;
+        text-align: start;
+    }
+
+    .summaryTitleEmail{
+        font-family: 'Major Mono Display', monospace;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 15px;
+        color: white;
+        text-align: start;
+    }
+
+    .summaryText {
+        display: inline-block;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 10px;
+        width: 95%;
+        text-align: start;
+    }
+
+    .summaryTextEmail{
+        display: inline-block;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 10px;
+        width: 95%;
+        text-align: start;
+    }
+
+    .summaryTextL{
+        display: inline-block;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 12px;
+        width: 95%;
+        text-align: start;
+    }
+
+    .smallLinkedIn{
+        display: flex;
+        margin-left: 14px;
+    }
+
+    .smallLinkLinkedIn{
+        display: flex;
+    }
+
+    .smallLinkedInIMG{
+        display: flex;
+        width: 60%;
+    }
+
+    .rightDiv {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        width: 70%;
+        border-left: #41414165 solid;
+    }
+
+    .titleSummary {
+        display: flex;
+        font-family: 'Major Mono Display', monospace;
+        text-align: start;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .subTitleSummary {
+        display: flex;
+        color: white;
+        text-align: start;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    .summaryTitleRight {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        font-family: 'Major Mono Display', monospace;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-top: 20px;
+        color: white;
+        text-align: start;
+        border-bottom: #41414165 solid;
+        padding: 10px;
+        width:90%;
+    }
+
+    .summarySubTitleRight {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 13px;
+        margin-top: 30px;
+        color: white;
+        text-align: start;
+        margin-bottom: 30px;
+    }
+
+    .summaryTextSubTitle {
+        color: white;
+        width: 100%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .summaryTextInput {
+        color: white;
+        width: 100%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .summaryTextInputLanguage {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 13px;
+        color: white;
+        text-align: start;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    @keyframes allContainerSummary {
+        from {
+            opacity: 0%;
+        }
+
+        to {
+            opacity: 100%;
+        }
+    }
+
+    .allContainerSummary div {
+        animation: textContainerHome 1.5s;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .allContainerSummary {
+        padding-top: 70px;
+        z-index: 2;
+        padding-bottom: 70px;
+    }
+
+    .summarySplitContainer {
+        display: flex;
+        flex-direction: row;
+        padding-top: 10px;
+    }
+
+    .leftDiv {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .meIMG {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 110px;
+        border-radius: 250px;
+        margin-bottom: 20px;
+    }
+
+    .scrollIMG {
+        display: none;
+        flex-direction: column;
+        align-self: flex-start;
+        width: 60px;
+    }
+
+
+    .summaryTitle {
+        font-family: 'Major Mono Display', monospace;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 10px;
+        color: white;
+        text-align: start;
+    }
+
+    .summaryTitleEmail{
+        display: none;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 10px;
+        width: 95%;
+        text-align: start;
+    }
+
+    .summaryText {
+        display: inline-block;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 10px;
+        width: 90%;
+        text-align: start;
+    }
+
+    .summaryTextEmail{
+        display: none;
+        color: transparent;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 10px;
+        width: 95%;
+        text-align: start;
+    }
+
+    .smallLinkedIn{
+        display: flex;
+        margin-left: 8px;
+    }
+
+    .smallLinkLinkedIn{
+        display: flex;
+    }
+
+    .smallLinkedInIMG{
+        display: flex;
+        width: 70%;
+    }
+
+    .rightDiv {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        width: 70%;
+        border-left: #41414165 solid;
+    }
+
+    .titleSummary {
+        display: flex;
+        font-family: 'Major Mono Display', monospace;
+        text-align: start;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .subTitleSummary {
+        display: flex;
+        color: white;
+        text-align: start;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+        width: 70%;
+    }
+
+    .summaryTitleRight {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        font-family: 'Major Mono Display', monospace;
+        font-size: 12px;
+        margin-left: 0px;
+        margin-top: 10px;
+        color: white;
+        text-align: start;
+        border-bottom: #41414165 solid;
+        padding: 10px;
+        width:90%;
+    }
+
+    .summarySubTitleRight {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 13px;
+        margin-top: 15px;
+        color: white;
+        text-align: start;
+        margin-bottom: 20px;
+    }
+
+    .summaryTextSubTitle {
+        color: white;
+        width: 100%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    .summaryTextInput {
+        color: white;
+        width: 100%;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .summaryTextInputLanguage {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 12px;
         color: white;
         text-align: start;
         margin-bottom: 10px;
