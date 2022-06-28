@@ -29,7 +29,7 @@
     height: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
-    opacity: 100%;
+    opacity: 1;
     transition: 0.3s;
     -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
 	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
@@ -47,7 +47,7 @@
 	clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
     background: rgb(0,0,0);
     background: linear-gradient(77deg, rgba(0,0,0,0.84) 28%, rgba(85,85,85,1) 100%);
-    opacity: 100%;
+    opacity: 1;
 }
 
 .projectTextContainer{
@@ -166,10 +166,10 @@
 
 @keyframes allProjectsContainer {
     from {
-        opacity: 0;
+        opacity: 0%;
     }
     to {
-        opacity: 100%;
+        opacity: 1;
     }
 }
 
@@ -219,7 +219,7 @@
         height: 100px;
         margin-top: 20px;
         margin-bottom: 20px;
-        opacity: 100%;
+        opacity: 1;
         transition: 0.3s;
         -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
         clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
@@ -237,7 +237,7 @@
         clip-path: polygon(0% 0%, 95% 0%, 100% 100%, 0% 100%);
         background: rgb(0,0,0);
         background: linear-gradient(77deg, rgba(0,0,0,0.84) 28%, rgba(85,85,85,1) 100%);
-        opacity: 100%;
+        opacity: 1;
     }
     
     .projectTextContainer{
@@ -352,7 +352,7 @@
             opacity: 0;
         }
         to {
-            opacity: 100%;
+            opacity: 1;
         }
     }
     
@@ -399,7 +399,7 @@
         width: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
-        opacity: 100%;
+        opacity: 1;
         transition: 0.3s;
         background: rgb(0,0,0);
         background: linear-gradient(77deg, rgba(0,0,0,0.84) 28%, rgba(85,85,85,1) 100%);
@@ -495,7 +495,7 @@
             opacity: 0;
         }
         to {
-            opacity: 0.80;
+            opacity: 1;
         }
     }
     
