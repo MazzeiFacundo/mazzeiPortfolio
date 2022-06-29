@@ -322,7 +322,7 @@
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 675px) {
 
     .contactContainer {
         display: flex;
@@ -393,7 +393,7 @@
         width: auto;
         display: inline-block;
         height: 20%;
-        margin-top: 14px;
+        margin-top: 0px;
         justify-content: center;
         align-items: center;
     }

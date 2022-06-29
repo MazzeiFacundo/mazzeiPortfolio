@@ -301,6 +301,14 @@
         font-family: 'Quicksand', sans-serif;
         font-size: 15px;
     }
+
+    .navText:hover{
+        display: flex;
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 508px) {
@@ -347,6 +355,14 @@
         font-family: 'Quicksand', sans-serif;
         font-size: 17px;
     }
+
+    .navText:hover{
+        display: flex;
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 17px;
+    }
 }
 
 @media screen and (max-width: 365px) {
@@ -386,8 +402,17 @@
         text-decoration: none;
 
     }
+    
 
     .navText {
+        display: flex;
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 13px;
+    }
+
+    .navText:hover{
         display: flex;
         color: aliceblue;
         text-decoration: none;

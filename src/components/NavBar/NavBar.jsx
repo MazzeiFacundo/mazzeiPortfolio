@@ -7,11 +7,17 @@ export default function NavBar() {
 
     return (
         <nav className={`${location.pathname === '/mazzeiPortfolio/summary' || '/mazzeiPortfolio/myProjects' ? "navSummary" : "nav"}`}>
-            <Link className="textNav" to='/mazzeiPortfolio'>Web Developer</Link>
+            {/* <Link className="textNav" to='/mazzeiPortfolio'>Web Developer</Link>
             <Link className="navText" to='/mazzeiPortfolio'>Home</Link>
             <Link className="navText" to='/mazzeiPortfolio/summary'>Summary</Link>
             <Link className="navText" to='/mazzeiPortfolio/myProjects'>Projects</Link>
-            <Link className="navText" to='/mazzeiPortfolio/contact'>Contact</Link>
+            <Link className="navText" to='/mazzeiPortfolio/contact'>Contact</Link> */}
+
+            <Link className="textNav" to='/'>Web Developer</Link>
+            <Link className="navText" to='/'>Home</Link>
+            <Link className="navText" to='/summary'>Summary</Link>
+            <Link className="navText" to='/myProjects'>Projects</Link>
+            <Link className="navText" to='/contact'>Contact</Link>
         </nav>
     )
 }
