@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mazzeiPortfolio/static/css/main.a17de980.chunk.css",
-    "main.js": "/mazzeiPortfolio/static/js/main.d3c8e02f.chunk.js",
-    "main.js.map": "/mazzeiPortfolio/static/js/main.d3c8e02f.chunk.js.map",
+    "main.css": "/mazzeiPortfolio/static/css/main.e020a17c.chunk.css",
+    "main.js": "/mazzeiPortfolio/static/js/main.88c68d71.chunk.js",
+    "main.js.map": "/mazzeiPortfolio/static/js/main.88c68d71.chunk.js.map",
     "runtime-main.js": "/mazzeiPortfolio/static/js/runtime-main.e6baf0eb.js",
     "runtime-main.js.map": "/mazzeiPortfolio/static/js/runtime-main.e6baf0eb.js.map",
     "static/js/2.90abe124.chunk.js": "/mazzeiPortfolio/static/js/2.90abe124.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.9dba3075.chunk.js": "/mazzeiPortfolio/static/js/3.9dba3075.chunk.js",
     "static/js/3.9dba3075.chunk.js.map": "/mazzeiPortfolio/static/js/3.9dba3075.chunk.js.map",
     "index.html": "/mazzeiPortfolio/index.html",
-    "static/css/main.a17de980.chunk.css.map": "/mazzeiPortfolio/static/css/main.a17de980.chunk.css.map",
+    "static/css/main.e020a17c.chunk.css.map": "/mazzeiPortfolio/static/css/main.e020a17c.chunk.css.map",
     "static/js/2.90abe124.chunk.js.LICENSE.txt": "/mazzeiPortfolio/static/js/2.90abe124.chunk.js.LICENSE.txt",
     "static/media/clock.d7899f01.gif": "/mazzeiPortfolio/static/media/clock.d7899f01.gif",
     "static/media/codeScroll.c97a8ecd.gif": "/mazzeiPortfolio/static/media/codeScroll.c97a8ecd.gif",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.e6baf0eb.js",
     "static/js/2.90abe124.chunk.js",
-    "static/css/main.a17de980.chunk.css",
-    "static/js/main.d3c8e02f.chunk.js"
+    "static/css/main.e020a17c.chunk.css",
+    "static/js/main.88c68d71.chunk.js"
   ]
 }
