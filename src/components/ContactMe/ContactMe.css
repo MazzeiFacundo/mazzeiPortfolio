@@ -2,7 +2,6 @@
 
     .contactContainer {
         display: flex;
-        justify-content: flex-end;
         align-items: center;
         color: white;
         background-image: url("https://42.fr/wp-content/uploads/2021/06/Rectangle.png");
@@ -19,16 +18,15 @@
     .contactLogosAndTextContainer {
         display: flex;
         align-items: center;
+        width: 65%;
         justify-content: space-between;
-        height: 50%;
-        width: 100%;
+        align-self: center;
+        margin-left: 40px;
     }
 
     .contactLinkedInContainer {
         display: flex;
-        align-self: center;
-        object-fit: cover;
-        margin-left: 60px;
+        width: auto;
     }
 
     .contactLinkedInIMG:hover {
@@ -41,14 +39,14 @@
 
     .linkedInIMG {
         display: flex;
-        height: 100%;
-        width: 100%;
+        height: auto;
+        width: 200px;
     }
 
     .linkedInIMG:hover {
         display: flex;
-        height: 105%;
-        width: 105%;
+        height: auto;
+        width: 210px;
     }
 
     .linkLinkedIn:hover {
@@ -62,11 +60,8 @@
     }
 
     .contactGmailIMG {
-        width: auto;
-        display: inline-block;
-        height: 20%;
+        height: 70px;
         margin-top: 14px;
-        justify-content: center;
         align-items: center;
     }
 
@@ -88,7 +83,7 @@
 
     .contactGmailText {
         display: none;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .contactGitHubText {
@@ -111,8 +106,11 @@
 
     .contactGitHubContainer {
         display: flex;
-        height: 20%;
-        margin-right: 60px;
+    }
+
+    .contactGitHubIMG{
+        display: flex;
+        width: 200px;
     }
 
     .linkGitHub {
@@ -122,8 +120,8 @@
 
     .contactGitHubIMG:hover {
         display: flex;
-        height: 105%;
-        width: 105%;
+        height: auto;
+        width: 210px;
     }
 
     @keyframes contactLogosAndTextContainer {
@@ -353,8 +351,6 @@
     .contactLinkedInContainer {
         display: flex;
         align-self: center;
-        object-fit: cover;
-        margin-left: 60px;
     }
 
     .contactLinkedInIMG:hover {
@@ -367,8 +363,8 @@
 
     .linkedInIMG {
         display: flex;
-        height: 90%;
-        width: 100%;
+        height: auto;
+        width: 200px;
         margin-left: 0px;
     }
 
@@ -392,7 +388,7 @@
     .contactGmailIMG {
         width: auto;
         display: inline-block;
-        height: 20%;
+        height: 70px;
         margin-top: 0px;
         justify-content: center;
         align-items: center;
@@ -487,4 +483,174 @@
     .contactLogosAndTextContainer div {
         animation: textContainerHome 1.5s;
     }
+
+    
+}
+
+@media screen and (max-width: 293px) {
+
+    .contactContainer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: white;
+        background-image: url("https://42.fr/wp-content/uploads/2021/06/Rectangle.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .contactMeText {
+        color: red;
+        padding-top: 100px;
+    }
+
+    .contactLogosAndTextContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 50%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .contactLinkedInContainer {
+        display: flex;
+        align-self: center;
+        margin-left: 20px;
+    }
+
+    .contactLinkedInIMG:hover {
+        display: flex;
+    }
+
+    .linkLinkedIn {
+        display: flex;
+    }
+
+    .linkedInIMG {
+        display: flex;
+        height: auto;
+        width: 170px;
+        margin-left: 0px;
+    }
+
+    .linkedInIMG:hover {
+        display: flex;
+        height: 105%;
+        width: 105%;
+    }
+
+    .linkLinkedIn:hover {
+        display: flex;
+    }
+
+
+    .sphereIMG {
+        display: none;
+        width: 25%;
+        margin-left: 30px;
+    }
+
+    .contactGmailIMG {
+        width: auto;
+        display: inline-block;
+        height: 70px;
+        margin-top: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactGmailIMG:hover .gmailTrueIMG {
+        display: none;
+    }
+
+    .contactGmailIMG:hover .contactGmailText {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .gmailTrueIMG {
+        height: 100%;
+    }
+
+    .contactGmailText {
+        display: none;
+        font-size: 25px;
+    }
+
+    .contactGitHubText {
+        display: none;
+        font-size: 25px;
+    }
+
+    .gmailTrueIMG:hover+.contactGmailText {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contactGitHubIMG:hover+.contactGitHubText {
+        text-decoration: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contactGitHubContainer {
+        display: flex;
+        height: 15%;
+        margin: 0px;
+        align-items: center;
+    }
+
+    .linkGitHub {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactGitHubIMG {
+        display: flex;
+        align-self: center;
+        height: 100%;
+        width: 60%;
+    }
+
+    @keyframes contactLogosAndTextContainer {
+        from {
+            opacity: 0%;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes contactContainer {
+        from {
+            opacity: 0%;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .contactContainer img {
+        animation: textContainerHome 1.5s;
+    }
+
+    .contactLogosAndTextContainer img {
+        animation: textContainerHome 1.5s;
+    }
+
+    .contactLogosAndTextContainer div {
+        animation: textContainerHome 1.5s;
+    }
+
+    
 }

@@ -8,19 +8,19 @@ function App() {
   const location = useLocation();
   return (
     <>
-      <Routes location={location} key={location.pathname}>
+      {/* <Routes location={location} key={location.pathname}>
         <Route exact path="/mazzeiPortfolio" element={<Home/>}/>
         <Route exact path="/mazzeiPortfolio/summary" element={<Summary/>}/>
         <Route exact path="/mazzeiPortfolio/myProjects" element={<MyProjects/>}/>
         <Route exact path="/mazzeiPortfolio/contact" element={<ContactMe/>}/>
-      </Routes>
+      </Routes> */}
 
-      {/* <Routes location={location} key={location.pathname}>
+      <Routes location={location} key={location.pathname}>
         <Route exact path="/" element={<Home/>}/>
         <Route exact path="/summary" element={<Summary/>}/>
         <Route exact path="/myProjects" element={<MyProjects/>}/>
         <Route exact path="/contact" element={<ContactMe/>}/>
-      </Routes> */}
+      </Routes>
     </>
   );
 }

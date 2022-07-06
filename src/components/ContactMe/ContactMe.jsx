@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
 import "./ContactMe.css"
-import linkedin from "./linked.png"
+import linkedin from "./linked.webp"
 import github from "./github.png"
 import gmail from "./gmail.png"
 import sphere from "./esfera.gif"
