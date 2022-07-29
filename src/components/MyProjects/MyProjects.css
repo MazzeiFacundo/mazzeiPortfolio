@@ -154,6 +154,15 @@
 	clip-path: polygon(0% 0%, 85% 0%, 100% 120%, 0% 100%);
 }
 
+.insideDivIMGInverter{
+    display: block;
+    height: 70px;
+    width: 140px;
+    margin-top: 15px;
+	-webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 85% 0%, 100% 120%, 0% 100%);
+}
+
 .insideDivIMGNotReady {
     display: block;
     height: 120px;
@@ -341,6 +350,15 @@
         display: block;
         height: 120px;
     }
+
+    .insideDivIMGInverter{
+        display: block;
+        height: 70px;
+        width: 140px;
+        margin-top: 15px;
+        -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 85% 0%, 100% 120%, 0% 100%);
+    }
     
     .insideDivIMGNotReady {
         display: block;
@@ -527,6 +545,15 @@
     .insideDivIMG {
         display: block;
         height: 120px;
+    }
+
+    .insideDivIMGInverter{
+        display: block;
+        height: 70px;
+        width: 140px;
+        margin-top: 15px;
+        -webkitclip-path: polygon(0% 0%, 90% 0%, 120% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 85% 0%, 100% 120%, 0% 100%);
     }
     
     .insideDivIMGNotReady {
