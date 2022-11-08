@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mazzeiPortfolio/static/css/main.1edb289b.chunk.css",
-    "main.js": "/mazzeiPortfolio/static/js/main.86af5752.chunk.js",
-    "main.js.map": "/mazzeiPortfolio/static/js/main.86af5752.chunk.js.map",
+    "main.js": "/mazzeiPortfolio/static/js/main.82cc30f1.chunk.js",
+    "main.js.map": "/mazzeiPortfolio/static/js/main.82cc30f1.chunk.js.map",
     "runtime-main.js": "/mazzeiPortfolio/static/js/runtime-main.e6baf0eb.js",
     "runtime-main.js.map": "/mazzeiPortfolio/static/js/runtime-main.e6baf0eb.js.map",
     "static/js/2.8190a3b9.chunk.js": "/mazzeiPortfolio/static/js/2.8190a3b9.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/esfera.eef23d08.gif": "/mazzeiPortfolio/static/media/esfera.eef23d08.gif",
     "static/media/github.acd5855c.png": "/mazzeiPortfolio/static/media/github.acd5855c.png",
     "static/media/gmail.10f2390f.png": "/mazzeiPortfolio/static/media/gmail.10f2390f.png",
+    "static/media/inco.381faab9.png": "/mazzeiPortfolio/static/media/inco.381faab9.png",
     "static/media/linked.2ebbbedc.webp": "/mazzeiPortfolio/static/media/linked.2ebbbedc.webp",
     "static/media/me.3bd99b9b.jpg": "/mazzeiPortfolio/static/media/me.3bd99b9b.jpg",
     "static/media/moon.52dd4b6e.png": "/mazzeiPortfolio/static/media/moon.52dd4b6e.png",
@@ -26,6 +27,6 @@
     "static/js/runtime-main.e6baf0eb.js",
     "static/js/2.8190a3b9.chunk.js",
     "static/css/main.1edb289b.chunk.css",
-    "static/js/main.86af5752.chunk.js"
+    "static/js/main.82cc30f1.chunk.js"
   ]
 }
